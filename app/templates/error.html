@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block body %}
+<h1>That run stopped</h1>
+<div class="card" style="border-color:#d9b9b4;background:var(--mauve-soft)">
+  <p style="margin:0">{{ message }}</p>
+</div>
+<p class="small muted">Tokens used before stopping:
+  {{ '{:,}'.format(usage.input_tokens) }} in, {{ '{:,}'.format(usage.output_tokens) }} out
+  across {{ usage.calls }} call(s).</p>
+<p><a href="/">&larr; Back</a></p>
+{% endblock %}

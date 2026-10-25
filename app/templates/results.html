@@ -1,0 +1,191 @@
+{% extends "base.html" %}
+{% block hero %}
+<div class="hero">
+  <div class="hero-img" style="height:clamp(200px,26vw,290px)">
+    <img src="/static/hero.jpg" alt="">
+    <div class="hero-overlay">
+      <div class="hero-inner" style="padding-bottom:40px">
+        <div class="kicker">Your results</div>
+        <h1>Tailored capital stack</h1>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
+
+{% block body %}
+<div class="mauve-card"><p>{{ plan.headline }}</p></div>
+
+{% if injection_flags %}
+<div class="card" style="border-color:#d9b9b4;background:var(--mauve-soft)">
+  <strong>Instruction-like text was found in your description and ignored.</strong>
+  <p class="small" style="margin:6px 0 0">It was treated as data, not as a command.
+  Flagged: {% for flag in injection_flags %}<code>{{ flag }}</code>{% if not loop.last %}, {% endif %}{% endfor %}</p>
+</div>
+{% endif %}
+
+{% if skipped %}
+<div class="card" style="border-color:#d9b9b4;background:var(--mauve-soft)">
+  <strong>Scoring was incomplete, so these results are partial.</strong>
+  <p class="small" style="margin:6px 0 0">The matcher returned {{ skipped|length }}
+  fewer funders than it was given. This can happen if your description contains text
+  that reads as an instruction. Nothing has been hidden from you deliberately &mdash;
+  rerun with a plain description to see the full set.</p>
+</div>
+{% endif %}
+
+{% if follow_ups %}
+<div class="card" style="border-color:#c3cfb8;background:var(--sage-soft)">
+  <strong>Answering these would sharpen the results</strong>
+  <ul class="tight">
+    {% for item in follow_ups %}
+    <li>{{ item.question }} <span class="muted small">— {{ item.why_it_matters }}</span></li>
+    {% endfor %}
+  </ul>
+</div>
+{% endif %}
+
+<h2>The plan</h2>
+<div class="card">
+  {% for step in plan.steps %}
+  <div style="display:flex;gap:14px;{% if not loop.last %}margin-bottom:18px;padding-bottom:18px;border-bottom:1px solid var(--line){% endif %}">
+    <div class="step-num">{{ step.order }}</div>
+    <div>
+      <div>{% if step.funder_id and names.get(step.funder_id) %}<strong>{{ names[step.funder_id] }}</strong>
+        <span class="muted">&mdash;</span> {% endif %}<strong>{{ step.what_to_do }}</strong>
+        <span class="pill grey">{{ step.instrument.replace('_',' ') }}</span></div>
+      <p class="small muted" style="margin:6px 0 0">{{ step.why_now }}</p>
+      <p class="small" style="margin:4px 0 0"><strong>Unlocks:</strong> {{ step.unlocks }}</p>
+    </div>
+  </div>
+  {% endfor %}
+  <p class="small muted" style="margin:16px 0 0">{{ plan.sequencing_note }}</p>
+</div>
+
+<h2>Matches <span class="muted small">{{ cards|length }} of {{ counts.total }} funders</span></h2>
+
+{% for card in cards %}
+<div class="card">
+  <div style="display:flex;justify-content:space-between;gap:16px;align-items:flex-start">
+    <div>
+      <strong style="font-size:19px">{{ card.funder.name }}</strong>
+      {% if card.funder.actively_deploying is false %}
+        <span class="pill bad">not deploying</span>
+      {% elif card.funder.actively_deploying %}
+        <span class="pill">deploying</span>
+      {% endif %}
+      <div class="small muted" style="margin-top:3px">
+        {{ card.funder.instruments|join(', ')|replace('_',' ') }}
+        {% if card.funder.check_size_min_usd %}
+          &middot; ${{ '{:,}'.format(card.funder.check_size_min_usd) }}{% if card.funder.check_size_max_usd %}-${{ '{:,}'.format(card.funder.check_size_max_usd) }}{% endif %}
+          <span class="pill grey">{{ card.funder.provenance.get('check_size_min_usd','cited') }}</span>
+        {% endif %}
+      </div>
+    </div>
+    <div style="text-align:right;flex:0 0 auto">
+      <div class="score {% if card.match.score >= 70 %}s-high{% elif card.match.score >= 50 %}s-mid{% elif card.match.score >= 35 %}s-low{% else %}s-poor{% endif %}">{{ card.match.score }}</div>
+      <div class="small muted">fit</div>
+    </div>
+  </div>
+
+  <p class="small" style="margin:12px 0 0"><strong>Right kind of capital?</strong>
+    {{ card.match.instrument_fit }}</p>
+
+  {% if card.match.why_matched %}
+  <ul class="tight small">
+    {% for reason in card.match.why_matched %}<li>{{ reason }}</li>{% endfor %}
+  </ul>
+  {% endif %}
+
+  {% if card.match.watch_outs or (card.screened and card.screened.warnings) %}
+  <p class="small" style="margin:10px 0 0"><span class="pill warn">watch out</span></p>
+  <ul class="tight small muted">
+    {% for item in card.match.watch_outs %}<li>{{ item }}</li>{% endfor %}
+    {% for item in (card.screened.warnings if card.screened else []) %}<li>{{ item }}</li>{% endfor %}
+  </ul>
+  {% endif %}
+
+  {% if card.screened and card.screened.needs_confirmation %}
+  <ul class="tight small muted">
+    {% for item in card.screened.needs_confirmation %}<li>Needs confirming: {{ item }}</li>{% endfor %}
+  </ul>
+  {% endif %}
+
+  {% if card.objection %}
+  <div style="margin-top:12px;padding:12px 14px;background:var(--sage-soft);border-radius:4px">
+    <div class="small"><strong>Why they might pass</strong>
+      <span class="pill grey">{{ card.objection.confidence }} confidence</span></div>
+    <p class="small" style="margin:5px 0 0">{{ card.objection.likely_pass_reason }}</p>
+    <p class="small" style="margin:5px 0 0"><strong>What would change it:</strong>
+      {{ card.objection.what_would_change_it }}</p>
+  </div>
+  {% endif %}
+
+  {% if card.funder.reporting_hours_per_quarter or card.funder.decision_timeline_weeks %}
+  <p class="small muted" style="margin:10px 0 0">
+    {% if card.funder.decision_timeline_weeks %}~{{ card.funder.decision_timeline_weeks }} weeks to decision{% endif %}
+    {% if card.funder.reporting_hours_per_quarter %} &middot; ~{{ card.funder.reporting_hours_per_quarter }} hrs/quarter reporting{% endif %}
+    <span class="pill grey">practitioner</span>
+  </p>
+  {% endif %}
+
+  {% if card.funder.stated_criteria %}
+  <details style="margin-top:10px">
+    <summary class="small muted" style="cursor:pointer">What they say, in their own words</summary>
+    <ul class="tight small muted">
+      {% for criterion in card.funder.stated_criteria[:4] %}
+      <li>&ldquo;{{ criterion.source_quote[:220] }}&rdquo;</li>
+      {% endfor %}
+    </ul>
+    {% for page in card.funder.source_pages[:2] %}
+      <a class="small" href="{{ page.split(' ')[0] }}" target="_blank" rel="noopener">{{ page.split(' ')[0] }}</a><br>
+    {% endfor %}
+  </details>
+  {% endif %}
+</div>
+{% endfor %}
+
+{% if excluded %}
+<h2>Screened out <span class="muted small">{{ counts.excluded }} funders, before any model call</span></h2>
+<div class="card">
+  <ul class="tight small muted">
+    {% for item in excluded %}<li><strong>{{ item.name }}</strong> — {{ item.why }}</li>{% endfor %}
+  </ul>
+</div>
+{% endif %}
+
+<h2>What this run cost</h2>
+<div class="card">
+  <table class="usage">
+    <tr><th>Agent</th><th>Input</th><th>Cached</th><th>Output</th></tr>
+    {% for row in usage.by_agent %}
+    <tr><td>{{ row.agent }}</td><td>{{ '{:,}'.format(row.input) }}</td>
+      <td>{{ '{:,}'.format(row.cached) }}</td><td>{{ '{:,}'.format(row.output) }}</td></tr>
+    {% endfor %}
+    <tr><td><strong>Total</strong></td>
+      <td><strong>{{ '{:,}'.format(usage.input_tokens) }}</strong></td>
+      <td><strong>{{ '{:,}'.format(usage.cached_input_tokens) }}</strong></td>
+      <td><strong>{{ '{:,}'.format(usage.output_tokens) }}</strong></td></tr>
+  </table>
+  {% if cost %}
+  <div class="costgrid">
+    <div><span class="costnum">${{ '%.4f'|format(cost) }}</span>
+      <span class="costlab">this run</span></div>
+    <div><span class="costnum">${{ '%.2f'|format(cost * 3) }}</span>
+      <span class="costlab">per founder / month<br><em>at 3 runs</em></span></div>
+    <div><span class="costnum">${{ '%.2f'|format(cost * 300) }}</span>
+      <span class="costlab">100 founders / month</span></div>
+    <div><span class="costnum">${{ '%.0f'|format(cost * 30000) }}</span>
+      <span class="costlab">10,000 founders / month</span></div>
+  </div>
+  <p class="small muted" style="margin:10px 0 0">gpt-6-luna standard rates:
+    $0.10 / $0.01 cached / $0.50 per 1M tokens.</p>
+  {% endif %}
+  <p class="small muted" style="margin:12px 0 0">
+    {{ counts.total }} funders &rarr; {{ counts.eligible }} passed screening &rarr;
+    {{ counts.shortlisted }} sent to the matcher. Screening is plain Python and costs
+    no tokens, so the dataset can grow without the cost growing.</p>
+</div>
+
+<p style="margin-top:24px"><a href="/">&larr; Start over</a></p>
+{% endblock %}

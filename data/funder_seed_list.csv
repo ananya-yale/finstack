@@ -1,0 +1,73 @@
+id,name,category,url,note,keep
+btv,Better Tomorrow Ventures,equity_fintech,https://btv.vc,Fintech-only pre-seed/seed,y
+restive,Restive Ventures,equity_fintech,https://www.restive.com,Formerly Financial Venture Studio; early fintech + regulatory help,y
+commerce,Commerce Ventures,equity_fintech,https://www.commerce.vc,Fintech + retail tech seed/Series A,y
+qed,QED Investors,equity_fintech,https://www.qedinvestors.com,Large fintech specialist; seed to growth,y
+nyca,Nyca Partners,equity_fintech,https://www.nyca.com,Fintech specialist; strong bank/regulatory network,y
+fincapital,Fin Capital,equity_fintech,https://www.fin.capital,B2B fintech specialist,y
+canapi,Canapi Ventures,equity_fintech,https://www.canapi.com,Bank-LP-backed; distribution to banks,y
+ttv,TTV Capital,equity_fintech,https://www.ttvcapital.com,Fintech-only seed/Series A; Atlanta,y
+fenway,Fenway Summer,equity_fintech,https://www.fenwaysummer.com,Fintech-only; ex-CFPB founder; regulatory angle,y
+clocktower,Clocktower Technology Ventures,equity_fintech,https://ctventures.com,Fintech-only seed,y
+vesey,Vesey Ventures,equity_fintech,https://www.vesey.vc,Early fintech; ex-Amex partners,y
+portage,Portage,equity_fintech,https://portageinvest.com,Fintech; early and growth vehicles,y
+motive,Motive Partners,equity_fintech,https://www.motivepartners.com,Fintech; later stage - likely stage-blocker for early founders,y
+ribbit,Ribbit Capital,equity_fintech,https://ribbitcap.com,Fintech-only; large checks,n
+bcv,Bain Capital Ventures,equity_generalist,https://baincapitalventures.com,Generalist with deep fintech practice,n
+a16z,Andreessen Horowitz,equity_generalist,https://a16z.com,Generalist; active fintech practice,y
+primary,Primary Venture Partners,equity_generalist,https://www.primary.vc,NYC seed; fintech among focus areas,y
+lightspeed,Lightspeed Venture Partners,equity_generalist,https://lsvp.com,Generalist; top-5 fintech deal count Q1 2026,y
+coinbasevc,Coinbase Ventures,equity_generalist,https://www.coinbase.com/ventures,Crypto/fintech infra; very active,y
+flourish,Flourish Ventures,equity_impact,https://flourishventures.com,Omidyar spinout; financial health thesis,y
+quona,Quona Capital,equity_impact,https://quona.com,Inclusive fintech; emerging markets focus,n
+corevc,Core Innovation Capital,equity_impact,https://corevc.com,Financial health thesis; US,y
+finca,FINCA Ventures,equity_impact,https://fincaventures.com,Financial inclusion; emerging markets,n
+vilcap,Village Capital,equity_impact,https://vilcap.com,Accelerator + fund; peer-selected investment,y
+impactengine,Impact Engine,equity_impact,https://theimpactengine.com,Impact VC; economic opportunity thesis,y
+kapor,Kapor Capital,equity_impact,https://www.kaporcapital.com,Gap-closing thesis; often fintech,y
+zeal,Zeal Capital Partners,equity_impact,https://www.zealcapitalpartners.com,Inclusive investing; fintech + future of work,y
+collab,Collab Capital,equity_impact,https://collab.capital,Black-founder focused; alternative structures,y
+harlem,Harlem Capital,equity_impact,https://harlem.capital,Diverse founders; seed,y
+betterventures,Better Ventures,equity_impact,https://www.better.vc,Impact seed; some fintech,y
+omidyar,Omidyar Network,equity_impact,https://omidyar.com,Catalytic capital; financial systems reform,y
+citiimpact,Citi Impact Fund,corporate_impact,https://www.citigroup.com,Corporate impact equity; US,y
+prudential,Prudential Impact Investments,corporate_impact,https://www.prudential.com,Impact investments incl. catalytic capital,n
+metlifefdn,MetLife Foundation,grant,https://www.metlife.org,Financial health grantmaking,n
+mastercardcig,Mastercard Center for Inclusive Growth,grant,https://www.mastercardcenter.org,Grants + data; inclusive growth,y
+strive,Mastercard Strive,grant,https://strivecommunity.org,Small business financial health programs,y
+visafdn,Visa Foundation,grant,https://www.visa.com/visafoundation,Small business + inclusion grants,n
+wellsfargo,Wells Fargo Foundation,grant,https://www.wellsfargo.com,Financial health philanthropy,n
+truist,Truist Foundation,grant,https://www.truist.com/foundation,Financial inclusion grants,y
+capitalone,Capital One Impact Initiative,grant,https://www.capitalone.com,Corporate grantmaking; financial wellbeing,y
+gates,Gates Foundation Inclusive Financial Systems,grant,https://www.gatesfoundation.org,Global; large grants; mostly institutions not startups,n
+googleorg,Google.org,grant,https://www.google.org,Tech-for-good grants; occasional fintech,n
+mitsolve,MIT Solve,grant_challenge,https://solve.mit.edu,Challenge prizes incl. economic prosperity,y
+echoinggreen,Echoing Green,fellowship,https://echoinggreen.org,Fellowship + stipend for social entrepreneurs,y
+cdfifund,CDFI Fund Technical Assistance,government,https://www.cdfifund.gov,TA grants; requires CDFI certification or path to it,n
+nsfsbir,NSF SBIR/STTR,government,https://seedfund.nsf.gov,Largest US non-dilutive source; $275k-$1M+; real technical-innovation bar many fintechs fail,y
+sbirgov,SBIR.gov,government,https://www.sbir.gov,Cross-agency federal SBIR/STTR portal; US-only,y
+fintechsandbox,Fintech Sandbox,in_kind,https://fintechsandbox.org,Free market data access; not capital; revenue ceiling applies,y
+arc,Arc,debt,https://joinarc.com,Non-dilutive financing for fintechs; $50k-$5M+,y
+lighter,Lighter Capital,revenue_based,https://www.lightercapital.com,RBF for SaaS/tech,y
+capchase,Capchase,revenue_based,https://www.capchase.com,Revenue-based / ARR financing,y
+foundersfirst,Founders First Capital Partners,revenue_based,https://foundersfirstcapitalpartners.com,RBF for underrepresented founders,n
+i80,i80 Group,debt_warehouse,https://www.i80group.com,Credit facilities for fintech lenders,y
+vpc,Victory Park Capital,debt_warehouse,https://www.vpcadvisors.com,Asset-backed facilities for fintech lenders,y
+atalaya,Atalaya Capital Management,debt_warehouse,https://www.atalayacap.com,Specialty finance; asset-backed,y
+setpoint,Setpoint,debt_infra,https://setpoint.io,Warehouse ops infrastructure + capital access,y
+percent,Percent,debt_marketplace,https://percent.com,Private credit marketplace; smaller facilities,n
+trinity,Trinity Capital,venture_debt,https://www.trinitycap.com,Venture debt + warehouse; did Parafin facility 2024,n
+hercules,Hercules Capital,venture_debt,https://www.htgc.com,Venture debt; later stage,n
+svb,SVB (First Citizens),venture_debt,https://www.svb.com,Venture debt + warehouse facilities,y
+yc,Y Combinator,accelerator,https://www.ycombinator.com,Most active fintech investor by deal count Q1 2026,y
+techstars,Techstars,accelerator,https://www.techstars.com,Multiple fintech-themed programs,y
+startpath,Mastercard Start Path,corporate_accelerator,https://www.mastercard.us,Later-stage; live product + revenue required,n
+visaaccel,Visa Accelerator,corporate_accelerator,https://www.visa.com,FLAGGED OUT - programs are regional (Africa/APAC/Europe); no US cohort found,n
+risebarclays,Rise by Barclays,corporate_accelerator,https://rise.barclays,FLAGGED OUT - UK-headquartered program; US presence unclear,n
+1863,1863 Ventures,accelerator,https://www.1863ventures.net,New majority founders; accelerator + capital,n
+divinc,DivInc,accelerator,https://divinc.org,Pre-accelerator for underrepresented founders,y
+meng,Meng Impact Investment Fund at Yale SOM,equity_impact,https://som.yale.edu/centers/meng-impact-investment-fund,Student-run; financial inclusion a stated focus; NO Yale affiliation required; ~$50k checks,y
+dormroom,Dorm Room Fund,equity_generalist,https://www.dormroomfund.com,Student-led; CONFIRMED actively deploying; requires a student founder (affiliation_required),y
+drk,Draper Richards Kaplan Foundation,equity_impact,https://www.drkfoundation.org,Impact investments; scalability + lives-benefitted thesis; board seat + 3yr engagement,y
+uvfund,University Venture Fund,equity_generalist,https://www.uventurefund.com,No affiliation required; $100k-$500k; Intermountain West preference; impact thesis,n
+contrary,Contrary,equity_generalist,https://contrary.com,No affiliation required; young-founder thesis; now institutional scale,y

@@ -1,0 +1,74 @@
+{% extends "base.html" %}
+{% block title %}Working &mdash; FinStack{% endblock %}
+{% block body %}
+<h1 style="margin-top:36px">Working through your stack</h1>
+<p class="lede">Four agents run in sequence. This usually takes under a minute.</p>
+
+<div class="card">
+  <ol class="runlist" id="runlist">
+    {% for key, label, note in stages %}
+    <li data-key="{{ key }}" class="pending">
+      <span class="dot"></span>
+      <span class="runlabel">{{ label }}</span>
+      <span class="runnote">{{ note }}</span>
+    </li>
+    {% endfor %}
+  </ol>
+  <p class="small muted" id="screennote" style="margin:14px 0 0"></p>
+</div>
+
+<p class="small muted">Screening runs in plain Python and costs nothing. Only the
+three agent steps call the model.</p>
+
+<style>
+  .runlist{list-style:none;margin:0;padding:0}
+  .runlist li{display:flex;align-items:center;gap:12px;padding:11px 0;
+    border-bottom:1px solid var(--line)}
+  .runlist li:last-child{border-bottom:0}
+  .dot{flex:0 0 18px;height:18px;border-radius:999px;border:2px solid var(--line);
+    background:#fff;position:relative}
+  .runlabel{font-weight:600}
+  .runnote{margin-left:auto;font-size:12px;letter-spacing:.08em;text-transform:uppercase;
+    color:var(--muted)}
+  li.pending{opacity:.45}
+  li.active{opacity:1}
+  li.active .dot{border-color:var(--mauve);animation:pulse 1s ease-in-out infinite}
+  li.done{opacity:1}
+  li.done .dot{border-color:var(--sage);background:var(--sage)}
+  li.done .dot::after{content:"";position:absolute;left:4px;top:1px;width:4px;height:8px;
+    border:solid #fff;border-width:0 2px 2px 0;transform:rotate(45deg)}
+  @keyframes pulse{0%,100%{box-shadow:0 0 0 0 rgba(122,98,99,.4)}
+    50%{box-shadow:0 0 0 6px rgba(122,98,99,0)}}
+</style>
+
+<script>
+(function () {
+  const jobId = "{{ job_id }}";
+  const items = [...document.querySelectorAll("#runlist li")];
+  const note = document.getElementById("screennote");
+
+  function paint(done, current) {
+    items.forEach(function (li) {
+      const key = li.dataset.key;
+      li.className = done.includes(key) ? "done" : (key === current ? "active" : "pending");
+    });
+  }
+
+  function poll() {
+    fetch("/api/job/" + jobId)
+      .then(function (r) { return r.json(); })
+      .then(function (data) {
+        paint(data.done || [], data.stage);
+        if (data.screen_note) note.textContent = data.screen_note;
+        if (data.status === "done" || data.status === "error") {
+          window.location = "/results/" + jobId;
+          return;
+        }
+        setTimeout(poll, 900);
+      })
+      .catch(function () { setTimeout(poll, 1500); });
+  }
+  poll();
+})();
+</script>
+{% endblock %}

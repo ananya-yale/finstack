@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 600" width="980" height="600" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arrow" markerWidth="9" markerHeight="9" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#7A6263"/>
+    </marker>
+    <marker id="arrowsage" markerWidth="9" markerHeight="9" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#5f7352"/>
+    </marker>
+  </defs>
+
+  <rect width="980" height="600" fill="#FAF7F5"/>
+
+  <!-- ============ BUILD TIME ============ -->
+  <rect x="24" y="24" width="932" height="150" rx="6" fill="#fff" stroke="#E6DEDB"/>
+  <text x="42" y="50" font-size="12" font-weight="700" fill="#7A6263" letter-spacing="2">BUILD TIME — RUN ONCE, OFFLINE</text>
+
+  <rect x="42" y="66" width="140" height="56" rx="4" fill="#F4EBEA" stroke="#C2A3A4"/>
+  <text x="112" y="89" font-size="13" font-weight="700" text-anchor="middle" fill="#13262F">Seed list</text>
+  <text x="112" y="106" font-size="11" text-anchor="middle" fill="#6E6668">72 funders, by hand</text>
+
+  <rect x="214" y="66" width="140" height="56" rx="4" fill="#fff" stroke="#E6DEDB"/>
+  <text x="284" y="89" font-size="13" font-weight="700" text-anchor="middle" fill="#13262F">Fetcher</text>
+  <text x="284" y="106" font-size="11" text-anchor="middle" fill="#5f7352">0 tokens</text>
+
+  <rect x="386" y="66" width="152" height="56" rx="4" fill="#EDF1E9" stroke="#90A583"/>
+  <text x="462" y="86" font-size="13" font-weight="700" text-anchor="middle" fill="#13262F">Extractor agent</text>
+  <text x="462" y="103" font-size="11" text-anchor="middle" fill="#6E6668">1 call per funder</text>
+  <text x="462" y="116" font-size="10" text-anchor="middle" fill="#6E6668">quote required per field</text>
+
+  <rect x="570" y="66" width="152" height="56" rx="4" fill="#fff" stroke="#E6DEDB"/>
+  <text x="646" y="86" font-size="13" font-weight="700" text-anchor="middle" fill="#13262F">Quote + number</text>
+  <text x="646" y="100" font-size="13" font-weight="700" text-anchor="middle" fill="#13262F">verifier</text>
+  <text x="646" y="116" font-size="11" text-anchor="middle" fill="#5f7352">0 tokens · Python</text>
+
+  <rect x="754" y="66" width="184" height="56" rx="4" fill="#F4EBEA" stroke="#C2A3A4"/>
+  <text x="846" y="86" font-size="13" font-weight="700" text-anchor="middle" fill="#13262F">funders.json</text>
+  <text x="846" y="103" font-size="11" text-anchor="middle" fill="#6E6668">52 funders · 141 quotes</text>
+  <text x="846" y="116" font-size="11" text-anchor="middle" fill="#6E6668">+ tier_b.csv (human)</text>
+
+  <line x1="182" y1="94" x2="210" y2="94" stroke="#7A6263" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="354" y1="94" x2="382" y2="94" stroke="#7A6263" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="538" y1="94" x2="566" y2="94" stroke="#7A6263" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="722" y1="94" x2="750" y2="94" stroke="#7A6263" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="648" y="146" font-size="10" text-anchor="middle" fill="#8C3A3A">3 fabricated check sizes dropped here</text>
+
+  <!-- ============ RUN TIME ============ -->
+  <rect x="24" y="196" width="932" height="380" rx="6" fill="#fff" stroke="#E6DEDB"/>
+  <text x="42" y="222" font-size="12" font-weight="700" fill="#7A6263" letter-spacing="2">RUN TIME — ONE FOUNDER, FOUR MODEL CALLS</text>
+
+  <rect x="42" y="242" width="150" height="62" rx="4" fill="#F4EBEA" stroke="#C2A3A4"/>
+  <text x="117" y="266" font-size="13" font-weight="700" text-anchor="middle" fill="#13262F">Founder</text>
+  <text x="117" y="283" font-size="11" text-anchor="middle" fill="#6E6668">14 form answers</text>
+  <text x="117" y="296" font-size="11" text-anchor="middle" fill="#6E6668">+ free text</text>
+
+  <rect x="226" y="242" width="160" height="62" rx="4" fill="#EDF1E9" stroke="#90A583"/>
+  <text x="306" y="264" font-size="13" font-weight="700" text-anchor="middle" fill="#13262F">1 · Intake agent</text>
+  <text x="306" y="281" font-size="11" text-anchor="middle" fill="#6E6668">free text → profile</text>
+  <text x="306" y="295" font-size="10" text-anchor="middle" fill="#8C3A3A">text wrapped as data</text>
+
+  <rect x="420" y="242" width="170" height="62" rx="4" fill="#fff" stroke="#90A583" stroke-dasharray="4 3"/>
+  <text x="505" y="264" font-size="13" font-weight="700" text-anchor="middle" fill="#13262F">2 · Screen + rank</text>
+  <text x="505" y="281" font-size="11" text-anchor="middle" fill="#5f7352">0 tokens · pure Python</text>
+  <text x="505" y="295" font-size="11" text-anchor="middle" fill="#6E6668">52 → 31 → 25</text>
+
+  <rect x="624" y="242" width="170" height="62" rx="4" fill="#EDF1E9" stroke="#90A583"/>
+  <text x="709" y="264" font-size="13" font-weight="700" text-anchor="middle" fill="#13262F">3 · Matcher agent</text>
+  <text x="709" y="281" font-size="11" text-anchor="middle" fill="#6E6668">scores all 25 at once</text>
+  <text x="709" y="295" font-size="10" text-anchor="middle" fill="#8C3A3A">IDs checked against list</text>
+
+  <line x1="192" y1="273" x2="222" y2="273" stroke="#7A6263" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="386" y1="273" x2="416" y2="273" stroke="#7A6263" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="590" y1="273" x2="620" y2="273" stroke="#7A6263" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- second row -->
+  <path d="M709 304 L709 330 L306 330 L306 356" fill="none" stroke="#7A6263" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <rect x="226" y="358" width="170" height="62" rx="4" fill="#EDF1E9" stroke="#90A583"/>
+  <text x="311" y="380" font-size="13" font-weight="700" text-anchor="middle" fill="#13262F">4 · Planner agent</text>
+  <text x="311" y="397" font-size="11" text-anchor="middle" fill="#6E6668">orders the raise</text>
+  <text x="311" y="411" font-size="11" text-anchor="middle" fill="#6E6668">non-dilutive → equity → debt</text>
+
+  <rect x="430" y="358" width="170" height="62" rx="4" fill="#EDF1E9" stroke="#90A583"/>
+  <text x="515" y="380" font-size="13" font-weight="700" text-anchor="middle" fill="#13262F">5 · Skeptic agent</text>
+  <text x="515" y="397" font-size="11" text-anchor="middle" fill="#6E6668">why each will pass</text>
+  <text x="515" y="411" font-size="11" text-anchor="middle" fill="#6E6668">top 3 only</text>
+
+  <rect x="634" y="358" width="180" height="62" rx="4" fill="#F4EBEA" stroke="#C2A3A4"/>
+  <text x="724" y="380" font-size="13" font-weight="700" text-anchor="middle" fill="#13262F">Results page</text>
+  <text x="724" y="397" font-size="11" text-anchor="middle" fill="#6E6668">plan · matches · objections</text>
+  <text x="724" y="411" font-size="11" text-anchor="middle" fill="#6E6668">screened-out · token meter</text>
+
+  <line x1="396" y1="389" x2="426" y2="389" stroke="#7A6263" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="600" y1="389" x2="630" y2="389" stroke="#7A6263" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- dataset feeds the screen -->
+  <path d="M846 122 L846 160 L505 160 L505 238" fill="none" stroke="#5f7352" stroke-width="1.5"
+        stroke-dasharray="5 4" marker-end="url(#arrowsage)"/>
+  <text x="560" y="176" font-size="10" fill="#5f7352">dataset loaded once at startup</text>
+
+  <!-- budget note -->
+  <rect x="634" y="440" width="180" height="46" rx="4" fill="#fff" stroke="#E6DEDB"/>
+  <text x="724" y="459" font-size="11" font-weight="700" text-anchor="middle" fill="#7A6263">Budget guard</text>
+  <text x="724" y="474" font-size="10" text-anchor="middle" fill="#6E6668">8 calls / 120k tokens max</text>
+
+  <text x="42" y="470" font-size="11" fill="#6E6668">Every agent runs on gpt-6-luna via Portkey, reasoning effort "low",</text>
+  <text x="42" y="486" font-size="11" fill="#6E6668">each one filling in a fixed template rather than writing free text.</text>
+
+  <rect x="42" y="506" width="772" height="52" rx="4" fill="#F4EBEA"/>
+  <text x="58" y="528" font-size="11" font-weight="700" fill="#13262F">Why step 2 has no model call:</text>
+  <text x="58" y="546" font-size="11" fill="#13262F">eligibility is a lookup rather than a judgement. Doing it in plain code cuts the matcher's input by about half and means the dataset can grow without the cost growing.</text>
+</svg>

@@ -1,0 +1,53 @@
+funder_id,name,category,url,actively_deploying,regulatory_expectation,decision_timeline_weeks,reporting_hours_per_quarter,ops_support,ops_support_detail,founder_notes,confidence,stages,check_size_min_usd,check_size_max_usd,fintech_verticals,_extracted_stages,_extracted_checks
+betterventures,Better Ventures,equity_impact,https://www.better.vc,yes,,,,,,,,,,,,pre_seed|seed,500000-1000000
+collab,Collab Capital,equity_impact,https://collab.capital,yes,,,,light,"EIR support. Assistance with cash flow management, reporting cadence, strategic hiring, and sustainable growth planning",,,,500000,1000000,,seed|series_a,(none found)
+corevc,Core Innovation Capital,equity_impact,https://corevc.com,yes,,,,none,,,,,,,,pre_seed|seed|series_a,500000-5000000
+drk,Draper Richards Kaplan Foundation,equity_impact,https://www.drkfoundation.org,yes,,16,1,platform_team,"Managing Director on your board and dedicated portfolio support with fundraising, pitch, strategy, and other projects over 3 years",Board seat taken for 3 years,high,seed | series_a,,,,(none found),300000
+flourish,Flourish Ventures,equity_impact,https://flourishventures.com,yes,,,,platform_team,"Finance and ops counsel, human capital and founder wellbeing support, regulatory and policy expertise",,,seed | series_a,500000,,,(none found),(none found)
+harlem,Harlem Capital,equity_impact,https://harlem.capital,yes,,,,light,,,medium,,,,,pre_seed|seed,1000000-2500000
+impactengine,Impact Engine,equity_impact,https://theimpactengine.com,yes,,,,none,,,medium,,3000000,5000000,,pre_seed|seed|series_a,(none found)
+kapor,Kapor Capital,equity_impact,https://www.kaporcapital.com,yes,,,,light,Foundational strategic planning support,,high,,100000,3000000,,pre_seed|seed|series_a,(none found)
+meng,Meng Impact Investment Fund at Yale SOM,equity_impact,https://som.yale.edu/centers/meng-impact-investment-fund,yes,,36,1,light,"Student team available for consulting, connections to broader Yale network",,high,pre_seed,50000,,,(none found),(none found)
+omidyar,Omidyar Network,equity_impact,https://omidyar.com,yes,,,,none,,,low,,1000000,,,(none found),(none found)
+vilcap,Village Capital,equity_impact,https://vilcap.com,yes,,,,platform_team,"Accelerator level support, digital tools to access capital",,medium,pre_seed | seed,50000,,,(none found),(none found)
+zeal,Zeal Capital Partners,equity_impact,https://www.zealcapitalpartners.com,yes,,,,light,"Support with go-to-market execution, connection to advisors, and educational modules",,low,pre_seed | seed | series_a,1000000,2000000,,pre_seed|seed,(none found)
+btv,Better Tomorrow Ventures,equity_fintech,https://btv.vc,yes,,,,,,,,,,,,pre_seed|seed,(none found)
+canapi,Canapi Ventures,equity_fintech,https://www.canapi.com,yes,,,,,,,,,,,,(none found),(none found)
+clocktower,Clocktower Technology Ventures,equity_fintech,https://ctventures.com,yes,,,,,,,,,,,,seed,250000-5000000
+commerce,Commerce Ventures,equity_fintech,https://www.commerce.vc,yes,,,,,,,,,,,,(none found),(none found)
+fenway,Fenway Summer,equity_fintech,https://www.fenwaysummer.com,yes,,,,,,,,,,,,pre_seed|seed,(none found)
+fincapital,Fin Capital,equity_fintech,https://www.fin.capital,yes,,,,,,,,,,,,pre_seed,(none found)
+motive,Motive Partners,equity_fintech,https://www.motivepartners.com,yes,,,,,,,,,,,,pre_seed|series_a,(none found)
+nyca,Nyca Partners,equity_fintech,https://www.nyca.com,yes,,,,,,,,,,,,seed,(none found)
+portage,Portage,equity_fintech,https://portageinvest.com,yes,,,,,,,,,,,,(none found),1000000-150000000
+qed,QED Investors,equity_fintech,https://www.qedinvestors.com,yes,,,,,,,,,,,,idea|pre_seed|seed|series_a|series_b_plus,(none found)
+restive,Restive Ventures,equity_fintech,https://www.restive.com,yes,,,,,,,,,,,,(none found),(none found)
+ttv,TTV Capital,equity_fintech,https://www.ttvcapital.com,yes,,,,,,,,,,,,(none found),(none found)
+vesey,Vesey Ventures,equity_fintech,https://www.vesey.vc,yes,,,,,,,,,,,,pre_seed|series_a,(none found)
+atalaya,Atalaya Capital Management,debt_warehouse,https://www.atalayacap.com,yes,,,,,,,,,,,,(none found),(none found)
+vpc,Victory Park Capital,debt_warehouse,https://www.vpcadvisors.com,yes,,,,,,,,,,,,(none found),(none found)
+i80,i80 Group,debt_warehouse,https://www.i80group.com,yes,,,,,,,,,,,,(none found),(none found)
+svb,SVB (First Citizens),venture_debt,https://www.svb.com,yes,,,,,,,,,,,,pre_seed|seed|series_a|series_b_plus,(none found)
+arc,Arc,debt,https://joinarc.com,yes,,,,,,,,,,,,(none found),(none found)
+capchase,Capchase,revenue_based,https://www.capchase.com,yes,,,,,,,,,,,,(none found),(none found)
+lighter,Lighter Capital,revenue_based,https://www.lightercapital.com,no,,,,,,,,,,,,(none found),-10000000
+capitalone,Capital One Impact Initiative,grant,https://www.capitalone.com,no,,,,,,,,,,,,(none found),(none found)
+mastercardcig,Mastercard Center for Inclusive Growth,grant,https://www.mastercardcenter.org,no,,,,,,,,,,,,(none found),(none found)
+strive,Mastercard Strive,grant,https://strivecommunity.org,no,,,,,,,,,,,,(none found),(none found)
+truist,Truist Foundation,grant,https://www.truist.com/foundation,no,,,,,,,,,,,,(none found),(none found)
+nsfsbir,NSF SBIR/STTR,government,https://seedfund.nsf.gov,yes,,,,,,,,,,,,(none found),-2000000
+sbirgov,SBIR.gov,government,https://www.sbir.gov,yes,,,,,,,,,,,,(none found),50000-323000
+mitsolve,MIT Solve,grant_challenge,https://solve.mit.edu,yes,,,,,,,,,,,,(none found),(none found)
+a16z,Andreessen Horowitz,equity_generalist,https://a16z.com,yes,,,,,,,,,,,,seed,(none found)
+citiimpact,Citi Impact Fund,corporate_impact,https://www.citigroup.com,yes,,,,,,,,,,,,(none found),(none found)
+coinbasevc,Coinbase Ventures,equity_generalist,https://www.coinbase.com/ventures,yes,,,,,,,,,,,,(none found),(none found)
+contrary,Contrary,equity_generalist,https://contrary.com,yes,,,,,,,,,,,,seed,(none found)
+divinc,DivInc,accelerator,https://divinc.org,no,,,,,,,,,,,,(none found),(none found)
+dormroom,Dorm Room Fund,equity_generalist,https://www.dormroomfund.com,yes,,,,,,,,,,,,(none found),(none found)
+echoinggreen,Echoing Green,fellowship,https://echoinggreen.org,no,,,,,,,,,,,,(none found),(none found)
+fintechsandbox,Fintech Sandbox,in_kind,https://fintechsandbox.org,no,,,,,,,,,,,,series_a,(none found)
+lightspeed,Lightspeed Venture Partners,equity_generalist,https://lsvp.com,yes,,,,,,,,,,,,seed|series_a|series_b_plus,(none found)
+primary,Primary Venture Partners,equity_generalist,https://www.primary.vc,yes,,,,,,,,,,,,seed,(none found)
+setpoint,Setpoint,debt_infra,https://setpoint.io,yes,,,,,,,,,,,,(none found),(none found)
+techstars,Techstars,accelerator,https://www.techstars.com,yes,,,,,,,,,,,,pre_seed,220000-220000
+yc,Y Combinator,accelerator,https://www.ycombinator.com,yes,,,,,,,,,,,,(none found),500000-500000

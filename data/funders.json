@@ -1,0 +1,3302 @@
+[
+  {
+    "category": "equity_vc",
+    "instruments": [],
+    "stages": [
+      "pre_seed",
+      "seed"
+    ],
+    "check_size_min_usd": null,
+    "check_size_max_usd": null,
+    "check_size_quote": null,
+    "geographies": [],
+    "fintech_verticals": [
+      "not_fintech_specific"
+    ],
+    "impact_mandate": "none",
+    "impact_reporting_standard": [],
+    "thesis_summary": "Invests in exceptional teams, with a stated sweet spot at pre-seed and seed where it can lead a round.",
+    "stated_criteria": [
+      {
+        "value": "Invests in exceptional teams it is excited to work with over decades.",
+        "source_quote": "We invest in exceptional teams we're excited to work with over decades."
+      },
+      {
+        "value": "Pre-seed and seed are its sweet spot, with the ability to lead a round.",
+        "source_quote": "Our sweet spot is at the pre-seed/seed when we can lead a round with a $500k - 4M check."
+      }
+    ],
+    "hard_blockers": [],
+    "regulatory_expectation": "none",
+    "revenue_required": false,
+    "revenue_floor_usd": null,
+    "application_mode": "open_application",
+    "application_url": null,
+    "page_supports_extraction": true,
+    "funder_id": "btv",
+    "name": "Better Tomorrow Ventures",
+    "source_pages": [
+      "https://btv.vc"
+    ],
+    "last_verified": "2026-10-24",
+    "dropped_unsupported": [
+      "check_size 500000-4000000 not stated in its own quote: Our sweet spot is at the pre-seed/seed when we can lead a round with a $500k - 4M check."
+    ],
+    "decision_timeline_weeks": null,
+    "reporting_hours_per_quarter": null,
+    "ops_support": null,
+    "ops_support_detail": null,
+    "actively_deploying": null,
+    "founder_notes": null,
+    "confidence": "unknown"
+  },
+  {
+    "category": "equity_vc",
+    "instruments": [],
+    "stages": [],
+    "check_size_min_usd": null,
+    "check_size_max_usd": null,
+    "check_size_quote": null,
+    "geographies": [],
+    "fintech_verticals": [
+      "not_fintech_specific"
+    ],
+    "impact_mandate": "none",
+    "impact_reporting_standard": [],
+    "thesis_summary": "Restive describes itself as a community for fintech entrepreneurs building companies in financial services.",
+    "stated_criteria": [],
+    "hard_blockers": [],
+    "regulatory_expectation": "none",
+    "revenue_required": false,
+    "revenue_floor_usd": null,
+    "application_mode": "open_application",
+    "application_url": null,
+    "page_supports_extraction": true,
+    "funder_id": "restive",
+    "name": "Restive Ventures",
+    "source_pages": [
+      "https://www.restive.com"
+    ],
+    "last_verified": "2026-10-24",
+    "dropped_unsupported": [],
+    "decision_timeline_weeks": null,
+    "reporting_hours_per_quarter": null,
+    "ops_support": null,
+    "ops_support_detail": null,
+    "actively_deploying": null,
+    "founder_notes": null,
+    "confidence": "unknown"
+  },
+  {
+    "category": "equity_vc",
+    "instruments": [],
+    "stages": [],
+    "check_size_min_usd": null,
+    "check_size_max_usd": null,
+    "check_size_quote": null,
+    "geographies": [],
+    "fintech_verticals": [
+      "payments",
+      "insurtech",
+      "banking_infra"
+    ],
+    "impact_mandate": "none",
+    "impact_reporting_standard": [],
+    "thesis_summary": "Commerce Ventures partners with entrepreneurs building platforms for the future of retail and financial services, with focus areas spanning retail, payments, insurance, and banking technology.",
+    "stated_criteria": [
+      {
+        "value": "The fund partners with entrepreneurs building platforms for the future of retail and financial services.",
+        "source_quote": "To partner with entrepreneurs who are building the platforms required for the future of retail and financial services."
+      },
+      {
+        "value": "The fund focuses on retail, payments, insurance, and banking technology.",
+        "source_quote": "Retail Tech\nPayment Tech\nInsurance Tech\nBanking Tech"
+      },
+      {
+        "value": "The fund uses a thematic approach to investing.",
+        "source_quote": "We take a deeply thematic approach to investing."
+      }
+    ],
+    "hard_blockers": [],
+    "regulatory_expectation": "none",
+    "revenue_required": false,
+    "revenue_floor_usd": null,
+    "application_mode": "open_application",
+    "application_url": null,
+    "page_supports_extraction": true,
+    "funder_id": "commerce",
+    "name": "Commerce Ventures",
+    "source_pages": [
+      "https://commerce.vc/",
+      "https://commerce.vc/about/"
+    ],
+    "last_verified": "2026-10-24",
+    "dropped_unsupported": [],
+    "decision_timeline_weeks": null,
+    "reporting_hours_per_quarter": null,
+    "ops_support": null,
+    "ops_support_detail": null,
+    "actively_deploying": null,
+    "founder_notes": null,
+    "confidence": "unknown"
+  },
+  {
+    "category": "equity_vc",
+    "instruments": [
+      "equity"
+    ],
+    "stages": [
+      "idea",
+      "pre_seed",
+      "seed",
+      "series_a",
+      "series_b_plus"
+    ],
+    "check_size_min_usd": null,
+    "check_size_max_usd": null,
+    "check_size_quote": null,
+    "geographies": [
+      "Global"
+    ],
+    "fintech_verticals": [
+      "lending",
+      "insurtech",
+      "wealth",
+      "banking_infra",
+      "embedded_finance"
+    ],
+    "impact_mandate": "none",
+    "impact_reporting_standard": [],
+    "thesis_summary": "QED invests in fintech businesses tackling real problems in financial services, including traditional financial products and embedded finance.",
+    "stated_criteria": [
+      {
+        "value": "QED looks for businesses and teams tackling real problems in financial services.",
+        "source_quote": "We are looking for businesses and teams tackling real problems in financial services."
+      },
+      {
+        "value": "QED believes durable businesses are built on a strong foundation of unit economics.",
+        "source_quote": "We believe that durable, successful businesses are built on a strong foundation of unit economics."
+      },
+      {
+        "value": "QED invests globally.",
+        "source_quote": "QED invests globally, with portfolio companies in 20 different countries across five continents."
+      },
+      {
+        "value": "Typical initial checks are $3\u201310 million.",
+        "source_quote": "Investments from the early stage fund have an average size of approximately $15 million, although typical initial checks are in the $3-10 million."
+      },
+      {
+        "value": "Growth Fund II has an average total investment size of $15\u201320 million.",
+        "source_quote": "Growth Fund II will likely make 5-7 investments each year, with an average total investment size of $15-20 million."
+      },
+      {
+        "value": "QED invests across the company lifecycle from pre-seed to IPO and supports seed and pre-seed companies, formation-stage businesses, and growth-stage companies.",
+        "source_quote": "QED invests in companies across their entire lifecycle from pre-seed to IPO. Initially, QED's sweet spot was at the Series A stage. Over time, QED has evolved to support both earlier- and later-stage companies. In addition to supporting seed and pre-seed companies, QED also works with founders and entrepreneurs on formation stage businesses at the Powerpoint stage through its Belay and its Fontes by QED vehicles. Since 2021, QED has operated a growth-stage fund for \"early-stage\" growth companies."
+      }
+    ],
+    "hard_blockers": [
+      {
+        "code": "excluded_vertical",
+        "description": "Companies outside fintech are excluded.",
+        "source_quote": "QED invests exclusively in fintech companies, from traditional banking products like credit and lending to insurance, wealth management, proptech and banking-as-a-service."
+      }
+    ],
+    "regulatory_expectation": "none",
+    "revenue_required": false,
+    "revenue_floor_usd": null,
+    "application_mode": "open_application",
+    "application_url": null,
+    "page_supports_extraction": true,
+    "funder_id": "qed",
+    "name": "QED Investors",
+    "source_pages": [
+      "https://www.qedinvestors.com",
+      "https://www.qedinvestors.com",
+      "https://www.qedinvestors.com/team"
+    ],
+    "last_verified": "2026-10-24",
+    "dropped_unsupported": [
+      "check_size 3000000-10000000 not stated in its own quote: Investments from the early stage fund have an average size of approximately $15 million, a"
+    ],
+    "decision_timeline_weeks": null,
+    "reporting_hours_per_quarter": null,
+    "ops_support": null,
+    "ops_support_detail": null,
+    "actively_deploying": null,
+    "founder_notes": null,
+    "confidence": "unknown"
+  },
+  {
+    "category": "equity_vc",
+    "instruments": [],
+    "stages": [
+      "seed"
+    ],
+    "check_size_min_usd": null,
+    "check_size_max_usd": null,
+    "check_size_quote": null,
+    "geographies": [],
+    "fintech_verticals": [
+      "payments",
+      "embedded_finance",
+      "lending",
+      "banking_infra",
+      "insurtech",
+      "wealth",
+      "financial_health"
+    ],
+    "impact_mandate": "none",
+    "impact_reporting_standard": [],
+    "thesis_summary": "Nyca Partners focuses primarily on early-stage fintech companies and invests thematically across financial infrastructure, payments, capital formation and risk, and digital advice.",
+    "stated_criteria": [
+      {
+        "value": "Focused primarily on early-stage companies",
+        "source_quote": "Focused primarily on early-stage companies, the firm provides founders with strategic support, access to an extensive network of industry leaders, and a disciplined, thematic investment approach that evolves alongside technology and market trends."
+      },
+      {
+        "value": "Fintech investing from seed to scale",
+        "source_quote": "Early conviction. Enduring partnership. Fintech investing from seed to scale."
+      },
+      {
+        "value": "Thematic investing across the systems that move money, manage risk, and serve customers",
+        "source_quote": "Thematic investing across the systems that move money, manage risk, and serve customers."
+      }
+    ],
+    "hard_blockers": [],
+    "regulatory_expectation": "none",
+    "revenue_required": false,
+    "revenue_floor_usd": null,
+    "application_mode": "open_application",
+    "application_url": null,
+    "page_supports_extraction": true,
+    "funder_id": "nyca",
+    "name": "Nyca Partners",
+    "source_pages": [
+      "https://www.nyca.com"
+    ],
+    "last_verified": "2026-10-24",
+    "dropped_unsupported": [],
+    "decision_timeline_weeks": null,
+    "reporting_hours_per_quarter": null,
+    "ops_support": null,
+    "ops_support_detail": null,
+    "actively_deploying": null,
+    "founder_notes": null,
+    "confidence": "unknown"
+  },
+  {
+    "category": "equity_vc",
+    "instruments": [
+      "equity"
+    ],
+    "stages": [
+      "pre_seed"
+    ],
+    "check_size_min_usd": null,
+    "check_size_max_usd": null,
+    "check_size_quote": null,
+    "geographies": [
+      "United States",
+      "Global markets"
+    ],
+    "fintech_verticals": [
+      "payments",
+      "banking_infra",
+      "insurtech",
+      "wealth"
+    ],
+    "impact_mandate": "none",
+    "impact_reporting_standard": [],
+    "thesis_summary": "Backs B2B technology for the financial services industry from pre-seed to pre-IPO, with a focus on areas including deep technology, vertical software, and payments.",
+    "stated_criteria": [
+      {
+        "value": "The fund backs B2B technology for the financial services industry through the full company lifecycle.",
+        "source_quote": "We back B2B Tech for the financial services industry full lifecycle pre-seed to pre-IPO"
+      },
+      {
+        "value": "It focuses primarily on the United States and may consider other global markets opportunistically.",
+        "source_quote": "Primary focus on the US, with opportunistic consideration for other global markets"
+      },
+      {
+        "value": "It invests in pre-seed through pre-IPO.",
+        "source_quote": "We invest in pre-seed through pre-IPO"
+      },
+      {
+        "value": "It invests in direct primary or secondary transactions.",
+        "source_quote": "We invest in direct primary or secondaries"
+      },
+      {
+        "value": "Its sub-sector areas include deep technology, AI-first vertical software, and payments.",
+        "source_quote": "DeepTech\nAdvancing the core technology waves reshaping enterprise software and the financial services - including AI, Cyber, Blockchain and Quantum.\nAi-First Vertical Software\nSoftware powering banks, wealth/asset managers, insurers, and healthcare systems, driving innovations in the front, middle, and back office.\nPayments\nModernizing how money moves through advances in payment infrastructure, value added services, CFO and treasury, payroll/benefits, and next-gen commerce enablement."
+      }
+    ],
+    "hard_blockers": [],
+    "regulatory_expectation": "none",
+    "revenue_required": false,
+    "revenue_floor_usd": null,
+    "application_mode": "open_application",
+    "application_url": null,
+    "page_supports_extraction": true,
+    "funder_id": "fincapital",
+    "name": "Fin Capital",
+    "source_pages": [
+      "https://www.fin.capital",
+      "https://www.fin.capital/about"
+    ],
+    "last_verified": "2026-10-24",
+    "dropped_unsupported": [],
+    "decision_timeline_weeks": null,
+    "reporting_hours_per_quarter": null,
+    "ops_support": null,
+    "ops_support_detail": null,
+    "actively_deploying": null,
+    "founder_notes": null,
+    "confidence": "unknown"
+  },
+  {
+    "category": "equity_vc",
+    "instruments": [],
+    "stages": [],
+    "check_size_min_usd": null,
+    "check_size_max_usd": null,
+    "check_size_quote": null,
+    "geographies": [],
+    "fintech_verticals": [],
+    "impact_mandate": "none",
+    "impact_reporting_standard": [],
+    "thesis_summary": "Canapi invests in B2B software and fintech companies in the financial services economy, describing its focus as early to growth-stage.",
+    "stated_criteria": [
+      {
+        "value": "B2B software and fintech",
+        "source_quote": "Canapi is where B2B software and fintech founders find the expertise, networks, and capital to scale."
+      },
+      {
+        "value": "Early or growth stage",
+        "source_quote": "Whether you're early or growth stage, your potential for impact is greater with Canapi in your corner."
+      }
+    ],
+    "hard_blockers": [],
+    "regulatory_expectation": "none",
+    "revenue_required": false,
+    "revenue_floor_usd": null,
+    "application_mode": "open_application",
+    "application_url": null,
+    "page_supports_extraction": true,
+    "funder_id": "canapi",
+    "name": "Canapi Ventures",
+    "source_pages": [
+      "https://www.canapi.com"
+    ],
+    "last_verified": "2026-10-24",
+    "dropped_unsupported": [],
+    "decision_timeline_weeks": null,
+    "reporting_hours_per_quarter": null,
+    "ops_support": null,
+    "ops_support_detail": null,
+    "actively_deploying": null,
+    "founder_notes": null,
+    "confidence": "unknown"
+  },
+  {
+    "category": "equity_vc",
+    "instruments": [],
+    "stages": [],
+    "check_size_min_usd": null,
+    "check_size_max_usd": null,
+    "check_size_quote": null,
+    "geographies": [],
+    "fintech_verticals": [
+      "payments",
+      "banking_infra",
+      "insurtech",
+      "regtech",
+      "financial_health"
+    ],
+    "impact_mandate": "none",
+    "impact_reporting_standard": [],
+    "thesis_summary": "TTV Capital invests in fintech companies, including traditional fintech, fintech-enabled businesses, and companies using emerging technology to revolutionize financial services. It describes its focus as early-stage and values innovative technology, large potential markets, and dynamic founding_\u3055\u3093.",
+    "stated_criteria": [
+      {
+        "value": "TTV invests in early-stage fintech companies.",
+        "source_quote": "TTV Capital is one of the longest-running venture capital firms investing in early-stage fintech companies."
+      },
+      {
+        "value": "TTV supports fintech companies across the ecosystem with innovative technology, large potential market opportunities, and dynamic founding teams.",
+        "source_quote": "TTV Capital provides support for fintech companies across the ecosystem who have innovative technology, large potential market opportunities, and dynamic founding teams."
+      },
+      {
+        "value": "Investment focus includes traditional fintech, fintech-enabled businesses, and companies leveraging emerging technology in financial services.",
+        "source_quote": "The following categories are a subset of our investment focus areas."
+      },
+      {
+        "value": "Traditional fintech focus areas include payments, banking software, cyber security, risk management, compliance, regtech, financial wellness, insurtech, and the CFO stack.",
+        "source_quote": "Core financial technologies including payments, banking software, cyber security, risk management, compliance, regtech, financial wellness, insuretech, the CFO stack and others."
+      },
+      {
+        "value": "TTV invests in smart, hard-working entrepreneurs who challenge the status quo.",
+        "source_quote": "We invest in smart, hard-working entrepreneurs who aren't afraid to challenge the status quo."
+      }
+    ],
+    "hard_blockers": [],
+    "regulatory_expectation": "none",
+    "revenue_required": false,
+    "revenue_floor_usd": null,
+    "application_mode": "open_application",
+    "application_url": null,
+    "page_supports_extraction": true,
+    "funder_id": "ttv",
+    "name": "TTV Capital",
+    "source_pages": [
+      "https://ttvcapital.com/",
+      "https://ttvcapital.com/about/"
+    ],
+    "last_verified": "2026-10-24",
+    "dropped_unsupported": [],
+    "decision_timeline_weeks": null,
+    "reporting_hours_per_quarter": null,
+    "ops_support": null,
+    "ops_support_detail": null,
+    "actively_deploying": null,
+    "founder_notes": null,
+    "confidence": "unknown"
+  },
+  {
+    "category": "equity_vc",
+    "instruments": [],
+    "stages": [
+      "pre_seed",
+      "seed"
+    ],
+    "check_size_min_usd": null,
+    "check_size_max_usd": null,
+    "check_size_quote": null,
+    "geographies": [
+      "United States"
+    ],
+    "fintech_verticals": [
+      "lending",
+      "payments",
+      "banking_infra",
+      "wealth",
+      "regtech",
+      "crypto",
+      "sme_finance"
+    ],
+    "impact_mandate": "none",
+    "impact_reporting_standard": [],
+    "thesis_summary": "Fenway Summer is a venture capital firm focused on fintech and financial services, particularly companies working in regulated and policy-adjacent markets.",
+    "stated_criteria": [
+      {
+        "value": "The firm focuses on the intersection of finance, technology, and regulation.",
+        "source_quote": "Fenway Summer is a venture capital firm focused at the intersection of\nfinance, technology,\nand\nregulation."
+      },
+      {
+        "value": "The firm names lending, payments, capital markets, data analytics, financial infrastructure, crypto, and asset management as areas of interest.",
+        "source_quote": "If you are building a company in lending, payments, capital markets, data analytics, financial infrastructure, crypto or asset management, let's connect."
+      },
+      {
+        "value": "Casey Williams has particular conviction for founders raising their first institutional round in complex, policy-adjacent markets.",
+        "source_quote": "She focuses on companies building infrastructure for the financial system, with a particular conviction for founders raising their first institutional round in complex, policy-adjacent markets where most generalist investors struggle to underwrite the risk."
+      },
+      {
+        "value": "The page mentions pre-seed and seed investments.",
+        "source_quote": "She was the lead investor in the pre-seed rounds for Transend, Parlay, and Wavvest, and the seed rounds for Occupi and Prism Layer."
+      }
+    ],
+    "hard_blockers": [],
+    "regulatory_expectation": "none",
+    "revenue_required": false,
+    "revenue_floor_usd": null,
+    "application_mode": "open_application",
+    "application_url": "https://fenwaysummer.com/",
+    "page_supports_extraction": true,
+    "funder_id": "fenway",
+    "name": "Fenway Summer",
+    "source_pages": [
+      "https://fenwaysummer.com/",
+      "https://fenwaysummer.com/"
+    ],
+    "last_verified": "2026-10-24",
+    "dropped_unsupported": [],
+    "decision_timeline_weeks": null,
+    "reporting_hours_per_quarter": null,
+    "ops_support": null,
+    "ops_support_detail": null,
+    "actively_deploying": null,
+    "founder_notes": null,
+    "confidence": "unknown"
+  },
+  {
+    "category": "equity_vc",
+    "instruments": [
+      "equity"
+    ],
+    "stages": [
+      "seed"
+    ],
+    "check_size_min_usd": 250000,
+    "check_size_max_usd": 5000000,
+    "check_size_quote": "Initial investments typically range from $250,000 to $2 million, with up to $5 million over the life of the investment.",
+    "geographies": [],
+    "fintech_verticals": [
+      "not_fintech_specific"
+    ],
+    "impact_mandate": "none",
+    "impact_reporting_standard": [],
+    "thesis_summary": "Invests in technology and life science companies, including information and communications technology and life sciences, and provides capital, resources, and guidance to entrepreneurs.",
+    "stated_criteria": [
+      {
+        "value": "The firm participates in seed/start-up companies, first and second round investments, and later stage investments.",
+        "source_quote": "We participate in seed/start-up companies, first and second round investments, and later stage investments."
+      },
+      {
+        "value": "The firm invests primarily in information and communications technology and life sciences.",
+        "source_quote": "We invest primarily in companies engaged in the following industries:\nInformation & Communications Technology, such as computer hardware, telecommunications, electronics, semiconductors, software and systems, multi-media, and Internet;\nLife Sciences, such as bio-pharmaceuticals and medical devices;"
+      },
+      {
+        "value": "When considering funding, the firm looks for experienced and capable management; unique, must-have or proprietary products or services meeting a pressing need; an opportunity to create a leadership position in a large and growing industry; a compelling business model with clearly defined milestones to reach profitability; and a defensible and sustainable competitive position.",
+        "source_quote": "When we consider funding a company, we look for:\nExperienced and capable management;\nUnique, \"must-have\" or proprietary products or services that meet a pressing need;\nThe opportunity to create a leadership position in a large and growing industry;\nA compelling business model with clearly-defined milestones to reach profitability;\nA defensible and sustainable competitive position."
+      }
+    ],
+    "hard_blockers": [],
+    "regulatory_expectation": "none",
+    "revenue_required": false,
+    "revenue_floor_usd": null,
+    "application_mode": "open_application",
+    "application_url": "https://ctventures.com/about/",
+    "page_supports_extraction": true,
+    "funder_id": "clocktower",
+    "name": "Clocktower Technology Ventures",
+    "source_pages": [
+      "https://ctventures.com",
+      "https://ctventures.com/about/"
+    ],
+    "last_verified": "2026-10-24",
+    "dropped_unsupported": [],
+    "decision_timeline_weeks": null,
+    "reporting_hours_per_quarter": null,
+    "ops_support": null,
+    "ops_support_detail": null,
+    "actively_deploying": null,
+    "founder_notes": null,
+    "confidence": "unknown"
+  },
+  {
+    "category": "equity_vc",
+    "instruments": [],
+    "stages": [
+      "pre_seed",
+      "series_a"
+    ],
+    "check_size_min_usd": null,
+    "check_size_max_usd": null,
+    "check_size_quote": null,
+    "geographies": [
+      "US",
+      "Israel"
+    ],
+    "fintech_verticals": [
+      "not_fintech_specific"
+    ],
+    "impact_mandate": "none",
+    "impact_reporting_standard": [],
+    "thesis_summary": "Vesey Ventures is a fintech-focused VC firm that partners with startups and incumbents, using its financial-services network and strategic support to help founders build and scale.",
+    "stated_criteria": [
+      {
+        "value": "Focus areas: fintech, cybersecurity, and enterprise AI.",
+        "source_quote": "FOCUS AREAS:\nFintech, cybersecurity, and enterprise AI"
+      },
+      {
+        "value": "Geographies: US and Israel.",
+        "source_quote": "GEOGRAPHIES:\nUS & Israel"
+      },
+      {
+        "value": "Investment stages: pre-seed through Series A.",
+        "source_quote": "WHEN WE INVEST:\nPre-seed - Series A"
+      }
+    ],
+    "hard_blockers": [],
+    "regulatory_expectation": "none",
+    "revenue_required": false,
+    "revenue_floor_usd": null,
+    "application_mode": "open_application",
+    "application_url": null,
+    "page_supports_extraction": true,
+    "funder_id": "vesey",
+    "name": "Vesey Ventures",
+    "source_pages": [
+      "https://www.vesey.vc",
+      "https://www.vesey.vc/about"
+    ],
+    "last_verified": "2026-10-24",
+    "dropped_unsupported": [],
+    "decision_timeline_weeks": null,
+    "reporting_hours_per_quarter": null,
+    "ops_support": null,
+    "ops_support_detail": null,
+    "actively_deploying": null,
+    "founder_notes": null,
+    "confidence": "unknown"
+  },
+  {
+    "category": "equity_vc",
+    "instruments": [],
+    "stages": [],
+    "check_size_min_usd": 1000000,
+    "check_size_max_usd": 150000000,
+    "check_size_quote": "Ventures\nCheck size: $1M-$30M\nLearn More\nLearn More\nCapital Solutions\nCheck size: $30M-$150M",
+    "geographies": [],
+    "fintech_verticals": [],
+    "impact_mandate": "none",
+    "impact_reporting_standard": [],
+    "thesis_summary": "Portage backs fintech founders and offers Ventures and Capital Solutions.",
+    "stated_criteria": [
+      {
+        "value": "Portage focuses on fintech founders.",
+        "source_quote": "Backing the founders at fintech's frontier"
+      }
+    ],
+    "hard_blockers": [],
+    "regulatory_expectation": "none",
+    "revenue_required": false,
+    "revenue_floor_usd": null,
+    "application_mode": "open_application",
+    "application_url": null,
+    "page_supports_extraction": true,
+    "funder_id": "portage",
+    "name": "Portage",
+    "source_pages": [
+      "https://portageinvest.com",
+      "https://portageinvest.com"
+    ],
+    "last_verified": "2026-10-24",
+    "dropped_unsupported": [],
+    "decision_timeline_weeks": null,
+    "reporting_hours_per_quarter": null,
+    "ops_support": null,
+    "ops_support_detail": null,
+    "actively_deploying": null,
+    "founder_notes": null,
+    "confidence": "unknown"
+  },
+  {
+    "category": "equity_vc",
+    "instruments": [],
+    "stages": [
+      "pre_seed",
+      "series_a"
+    ],
+    "check_size_min_usd": null,
+    "check_size_max_usd": null,
+    "check_size_quote": null,
+    "geographies": [
+      "North America",
+      "Europe"
+    ],
+    "fintech_verticals": [
+      "embedded_finance",
+      "banking_infra",
+      "payments",
+      "insurtech",
+      "wealth",
+      "not_fintech_specific"
+    ],
+    "impact_mandate": "none",
+    "impact_reporting_standard": [],
+    "thesis_summary": "Motive Partners invests in financial technology companies from pre-seed to Series A, including verticalized AI, embedded finance, and platforms across its core sectors.",
+    "stated_criteria": [
+      {
+        "value": "Partners with founders building the next generation of financial technology.",
+        "source_quote": "We partner with founders who are building the next generation of financial technology."
+      },
+      {
+        "value": "Invests in pre-seed to Series A companies, with $1-10M lead/co-lead checks.",
+        "source_quote": "Invest in pre-seed to Series A companies, with $1-10M lead/co-lead checks."
+      },
+      {
+        "value": "Backs founders across verticalized AI, embedded finance, and platforms across its core sectors.",
+        "source_quote": "Backing founders across verticalized AI, embedded finance, and platforms across our core sectors."
+      },
+      {
+        "value": "Invests across North America and Europe.",
+        "source_quote": "From venture to growth & buyout across North America and Europe"
+      }
+    ],
+    "hard_blockers": [],
+    "regulatory_expectation": "none",
+    "revenue_required": false,
+    "revenue_floor_usd": null,
+    "application_mode": "open_application",
+    "application_url": null,
+    "page_supports_extraction": true,
+    "funder_id": "motive",
+    "name": "Motive Partners",
+    "source_pages": [
+      "https://motivepartners.com/",
+      "https://motivepartners.com/about"
+    ],
+    "last_verified": "2026-10-24",
+    "dropped_unsupported": [
+      "check_size 1000000-10000000 not stated in its own quote: Invest in pre-seed to Series A companies, with $1-10M lead/co-lead checks."
+    ],
+    "decision_timeline_weeks": null,
+    "reporting_hours_per_quarter": null,
+    "ops_support": null,
+    "ops_support_detail": null,
+    "actively_deploying": null,
+    "founder_notes": null,
+    "confidence": "unknown"
+  },
+  {
+    "category": "equity_vc",
+    "instruments": [
+      "equity"
+    ],
+    "stages": [
+      "seed"
+    ],
+    "check_size_min_usd": null,
+    "check_size_max_usd": null,
+    "check_size_quote": null,
+    "geographies": [],
+    "fintech_verticals": [],
+    "impact_mandate": "none",
+    "impact_reporting_standard": [],
+    "thesis_summary": "Invests in technology companies from seed through venture and growth stages across areas including AI, bio and healthcare, consumer, crypto, enterprise, fintech, games, infrastructure, and American dynamism.",
+    "stated_criteria": [
+      {
+        "value": "Invests in seed to venture to growth-stage technology companies across the named technology sectors.",
+        "source_quote": "We invest in seed to venture to growth-stage technology companies, across AI, bio + healthcare, consumer, crypto, enterprise, fintech, games, infrastructure, and companies building toward American dynamism."
+      }
+    ],
+    "hard_blockers": [],
+    "regulatory_expectation": "none",
+    "revenue_required": false,
+    "revenue_floor_usd": null,
+    "application_mode": "open_application",
+    "application_url": null,
+    "page_supports_extraction": true,
+    "funder_id": "a16z",
+    "name": "Andreessen Horowitz",
+    "source_pages": [
+      "https://a16z.com",
+      "https://a16z.com/about/",
+      "https://a16z.com/clf/"
+    ],
+    "last_verified": "2026-10-24",
+    "dropped_unsupported": [],
+    "decision_timeline_weeks": null,
+    "reporting_hours_per_quarter": null,
+    "ops_support": null,
+    "ops_support_detail": null,
+    "actively_deploying": null,
+    "founder_notes": null,
+    "confidence": "unknown"
+  },
+  {
+    "category": "equity_vc",
+    "instruments": [],
+    "stages": [
+      "seed"
+    ],
+    "check_size_min_usd": null,
+    "check_size_max_usd": null,
+    "check_size_quote": null,
+    "geographies": [],
+    "fintech_verticals": [
+      "not_fintech_specific"
+    ],
+    "impact_mandate": "none",
+    "impact_reporting_standard": [],
+    "thesis_summary": "Primary describes itself as a specialized, scaled seed fund that backs founders building novel ideas before the world believes in them, and says it supports founders in turning those ideas into companies.",
+    "stated_criteria": [
+      {
+        "value": "Backs founders building things the world hasn't seen yet, at the moment before the world believes.",
+        "source_quote": "We back founders building things the world hasn't seen yet, at the moment before the world believes."
+      },
+      {
+        "value": "Describes itself as a specialized and scaled seed fund.",
+        "source_quote": "Primary is a specialized and scaled seed fund designed to actually deliver."
+      }
+    ],
+    "hard_blockers": [],
+    "regulatory_expectation": "none",
+    "revenue_required": false,
+    "revenue_floor_usd": null,
+    "application_mode": "open_application",
+    "application_url": null,
+    "page_supports_extraction": true,
+    "funder_id": "primary",
+    "name": "Primary Venture Partners",
+    "source_pages": [
+      "https://www.primary.vc"
+    ],
+    "last_verified": "2026-10-24",
+    "dropped_unsupported": [],
+    "decision_timeline_weeks": null,
+    "reporting_hours_per_quarter": null,
+    "ops_support": null,
+    "ops_support_detail": null,
+    "actively_deploying": null,
+    "founder_notes": null,
+    "confidence": "unknown"
+  },
+  {
+    "category": "equity_vc",
+    "instruments": [],
+    "stages": [
+      "seed",
+      "series_a",
+      "series_b_plus"
+    ],
+    "check_size_min_usd": null,
+    "check_size_max_usd": null,
+    "check_size_quote": null,
+    "geographies": [
+      "United States",
+      "Europe",
+      "Israel"
+    ],
+    "fintech_verticals": [
+      "not_fintech_specific"
+    ],
+    "impact_mandate": "none",
+    "impact_reporting_standard": [],
+    "thesis_summary": "Lightspeed backs bold founders and ideas, investing from Seed through later stages. The firm emphasizes depth of commitment and pursues opportunities on their merits regardless of where the founder resides.",
+    "stated_criteria": [
+      {
+        "value": "The firm backs companies from Seed through Series F and beyond.",
+        "source_quote": "In service of bold founders with big ideas, we stand behind our companies with high conviction from Seed to Series F and beyond."
+      },
+      {
+        "value": "Investment opportunities are pursued on their merits regardless of where the founder resides.",
+        "source_quote": "We pursue those opportunities based on their merits regardless of where the founder resides."
+      }
+    ],
+    "hard_blockers": [],
+    "regulatory_expectation": "none",
+    "revenue_required": false,
+    "revenue_floor_usd": null,
+    "application_mode": "open_application",
+    "application_url": null,
+    "page_supports_extraction": true,
+    "funder_id": "lightspeed",
+    "name": "Lightspeed Venture Partners",
+    "source_pages": [
+      "https://lsvp.com",
+      "https://lsvp.com/about/"
+    ],
+    "last_verified": "2026-10-24",
+    "dropped_unsupported": [],
+    "decision_timeline_weeks": null,
+    "reporting_hours_per_quarter": null,
+    "ops_support": null,
+    "ops_support_detail": null,
+    "actively_deploying": null,
+    "founder_notes": null,
+    "confidence": "unknown"
+  },
+  {
+    "category": "equity_vc",
+    "instruments": [],
+    "stages": [],
+    "check_size_min_usd": null,
+    "check_size_max_usd": null,
+    "check_size_quote": null,
+    "geographies": [],
+    "fintech_verticals": [
+      "crypto"
+    ],
+    "impact_mandate": "none",
+    "impact_reporting_standard": [],
+    "thesis_summary": "Invests in founders advancing the crypto and Web3 ecosystem, across categories within the cryptoeconomy.",
+    "stated_criteria": [
+      {
+        "value": "The firm invests in exceptional founders who share Coinbase's mission of creating more economic freedom for the world.",
+        "source_quote": "Coinbase Ventures invests in exceptional founders who share Coinbase's mission of creating more economic freedom for the world."
+      },
+      {
+        "value": "The firm partners with founding teams at the earliest stages and invests broadly across all categories within the cryptoeconomy.",
+        "source_quote": "We partner with founding teams at the earliest stages, and invest broadly across all categories within the cryptoeconomy."
+      }
+    ],
+    "hard_blockers": [],
+    "regulatory_expectation": "none",
+    "revenue_required": false,
+    "revenue_floor_usd": null,
+    "application_mode": "open_application",
+    "application_url": null,
+    "page_supports_extraction": true,
+    "funder_id": "coinbasevc",
+    "name": "Coinbase Ventures",
+    "source_pages": [
+      "https://www.coinbase.com/ventures",
+      "https://www.coinbase.com/about"
+    ],
+    "last_verified": "2026-10-24",
+    "dropped_unsupported": [],
+    "decision_timeline_weeks": null,
+    "reporting_hours_per_quarter": null,
+    "ops_support": null,
+    "ops_support_detail": null,
+    "actively_deploying": null,
+    "founder_notes": null,
+    "confidence": "unknown"
+  },
+  {
+    "category": "equity_vc",
+    "instruments": [],
+    "stages": [],
+    "check_size_min_usd": null,
+    "check_size_max_usd": null,
+    "check_size_quote": null,
+    "geographies": [
+      "United States",
+      "Emerging markets"
+    ],
+    "fintech_verticals": [
+      "not_fintech_specific"
+    ],
+    "impact_mandate": "required",
+    "impact_reporting_standard": [],
+    "thesis_summary": "Flourish is an early-stage investor backing mission-driven entrepreneurs and companies using technology to build a fairer, more customer-centric financial system. It invests across the U.S. and emerging markets.",
+    "stated_criteria": [
+      {
+        "value": "Early-stage investors",
+        "source_quote": "We are\nearly-stage investors\nbacking\nmission-driven entrepreneurs\nand industry influencers working towards a\nfair financial system\n."
+      },
+      {
+        "value": "Uses technology to build a customer-centric financial sector",
+        "source_quote": "We back bold ideas that can scale and responsibly harness technology to build a more customer-centric financial sector."
+      },
+      {
+        "value": "Works across emerging markets and the U.S.",
+        "source_quote": "We work across emerging markets and the U.S."
+      },
+      {
+        "value": "Global early-stage fintech fund",
+        "source_quote": "We are a global early-stage fintech fund\ndesigned to back ambitious founders\nreshaping financial services."
+      }
+    ],
+    "hard_blockers": [],
+    "regulatory_expectation": "none",
+    "revenue_required": false,
+    "revenue_floor_usd": null,
+    "application_mode": "open_application",
+    "application_url": null,
+    "page_supports_extraction": true,
+    "funder_id": "flourish",
+    "name": "Flourish Ventures",
+    "source_pages": [
+      "https://flourishventures.com",
+      "https://flourishventures.com/perspectives/category/events/watch-on-demand/flourish-focus/",
+      "https://flourishventures.com/about-us/"
+    ],
+    "last_verified": "2026-10-24",
+    "dropped_unsupported": [],
+    "decision_timeline_weeks": null,
+    "reporting_hours_per_quarter": null,
+    "ops_support": null,
+    "ops_support_detail": null,
+    "actively_deploying": null,
+    "founder_notes": null,
+    "confidence": "unknown"
+  },
+  {
+    "category": "equity_vc",
+    "instruments": [],
+    "stages": [
+      "pre_seed",
+      "seed",
+      "series_a"
+    ],
+    "check_size_min_usd": 500000,
+    "check_size_max_usd": 5000000,
+    "check_size_quote": "Our investments range from $500K to $5M across pre-seed, seed, and series A.",
+    "geographies": [],
+    "fintech_verticals": [
+      "not_fintech_specific"
+    ],
+    "impact_mandate": "preferred",
+    "impact_reporting_standard": [],
+    "thesis_summary": "Invests in mission-driven founders building B2B and B2C startups that create wealth and improve everyday life for Americans across wealth, health, housing, insurance, SMB enablement, and work.",
+    "stated_criteria": [
+      {
+        "value": "Invests in mission-obsessed founders with decacorn ambition.",
+        "source_quote": "We invest up to $5M in mission-obsessed founders with decacorn ambition."
+      },
+      {
+        "value": "Invests in B2B and B2C startups and writes lead checks at pre-seed, seed, and Series A.",
+        "source_quote": "We write $500K to $5M lead checks at pre-seed, seed, and series A in B2B and B2C startups."
+      },
+      {
+        "value": "Focuses on six wealth drivers: wealth, health, housing, insurance, SMB enablement, and work.",
+        "source_quote": "We invest across six core wealth drivers"
+      }
+    ],
+    "hard_blockers": [],
+    "regulatory_expectation": "none",
+    "revenue_required": false,
+    "revenue_floor_usd": null,
+    "application_mode": "open_application",
+    "application_url": "https://www.corevc.com/pitch-us",
+    "page_supports_extraction": true,
+    "funder_id": "corevc",
+    "name": "Core Innovation Capital",
+    "source_pages": [
+      "https://www.corevc.com/",
+      "https://www.corevc.com/pitch-us"
+    ],
+    "last_verified": "2026-10-24",
+    "dropped_unsupported": [],
+    "decision_timeline_weeks": null,
+    "reporting_hours_per_quarter": null,
+    "ops_support": null,
+    "ops_support_detail": null,
+    "actively_deploying": null,
+    "founder_notes": null,
+    "confidence": "unknown"
+  },
+  {
+    "category": "equity_vc",
+    "instruments": [
+      "equity",
+      "revenue_share"
+    ],
+    "stages": [],
+    "check_size_min_usd": null,
+    "check_size_max_usd": null,
+    "check_size_quote": null,
+    "geographies": [
+      "Global",
+      "Asia",
+      "Latin America",
+      "Middle East & North Africa",
+      "Sub-Saharan Africa",
+      "United States"
+    ],
+    "fintech_verticals": [
+      "not_fintech_specific"
+    ],
+    "impact_mandate": "required",
+    "impact_reporting_standard": [],
+    "thesis_summary": "Village Capital invests in early-stage, impact-creating startups, with a focus on solutions advancing economic mobility and resilience. Its investment facilities offer flexible financing, including equity, debt, and hybrid structures.",
+    "stated_criteria": [
+      {
+        "value": "Early-stage, scalable businesses in Northwest Arkansas",
+        "source_quote": "Investing innovative financing instruments into early-stage, scalable businesses in Northwest Arkansas to drive mission-aligned growth and impact."
+      },
+      {
+        "value": "Early-stage startups advancing economic mobility and resilience",
+        "source_quote": "We invest in early-stage startups advancing economic mobility and resilience."
+      },
+      {
+        "value": "Impact-creating startups",
+        "source_quote": "We design and manage funds offering flexible financing - such as equity, debt, and hybrid structures - connecting impact-creating startups with the right capital."
+      }
+    ],
+    "hard_blockers": [],
+    "regulatory_expectation": "none",
+    "revenue_required": false,
+    "revenue_floor_usd": null,
+    "application_mode": "open_application",
+    "application_url": "https://vilcap.com/programs",
+    "page_supports_extraction": true,
+    "funder_id": "vilcap",
+    "name": "Village Capital",
+    "source_pages": [
+      "https://vilcap.com",
+      "https://vilcap.com/programs",
+      "https://vilcap.com/eso-programs",
+      "https://vilcap.com/impactinvesting"
+    ],
+    "last_verified": "2026-10-24",
+    "dropped_unsupported": [],
+    "decision_timeline_weeks": null,
+    "reporting_hours_per_quarter": null,
+    "ops_support": null,
+    "ops_support_detail": null,
+    "actively_deploying": null,
+    "founder_notes": null,
+    "confidence": "unknown"
+  },
+  {
+    "category": "equity_vc",
+    "instruments": [
+      "equity"
+    ],
+    "stages": [
+      "pre_seed",
+      "seed",
+      "series_a"
+    ],
+    "check_size_min_usd": null,
+    "check_size_max_usd": null,
+    "check_size_quote": null,
+    "geographies": [],
+    "fintech_verticals": [
+      "not_fintech_specific"
+    ],
+    "impact_mandate": "required",
+    "impact_reporting_standard": [],
+    "thesis_summary": "Impact Engine manages private-market portfolios seeking both impact and financial returns. Its historical accelerator funds supported pre-seed impact companies, and its venture funds invested in Seed and Series A impact companies.",
+    "stated_criteria": [
+      {
+        "value": "The accelerator funds supported entrepreneurs starting businesses with the potential to drive attractive financial returns and positive social impact.",
+        "source_quote": "for entrepreneurs starting businesses with the potential to drive both attractive financial returns and positive social impact."
+      },
+      {
+        "value": "The venture funds invested entirely in Seed and Series A stage impact companies.",
+        "source_quote": "both funds invested entirely in Seed and Series A stage impact companies."
+      },
+      {
+        "value": "Impact Engine manages private-market portfolios seeking impact and financial returns.",
+        "source_quote": "Impact Engine manages private market portfolios that seek impact and financial returns for clients seeking an experienced, institutional-quality Impact LP partner."
+      }
+    ],
+    "hard_blockers": [],
+    "regulatory_expectation": "none",
+    "revenue_required": false,
+    "revenue_floor_usd": null,
+    "application_mode": "open_application",
+    "application_url": null,
+    "page_supports_extraction": true,
+    "funder_id": "impactengine",
+    "name": "Impact Engine",
+    "source_pages": [
+      "https://www.theimpactengine.com/",
+      "https://www.theimpactengine.com/who-we-are",
+      "https://www.theimpactengine.com/bloghome/2026/7/28/where-impact-meets-opportunity-highlights-from-our-2026-agm-fund-manager-panel"
+    ],
+    "last_verified": "2026-10-24",
+    "dropped_unsupported": [],
+    "decision_timeline_weeks": null,
+    "reporting_hours_per_quarter": null,
+    "ops_support": null,
+    "ops_support_detail": null,
+    "actively_deploying": null,
+    "founder_notes": null,
+    "confidence": "unknown"
+  },
+  {
+    "category": "equity_vc",
+    "instruments": [
+      "equity"
+    ],
+    "stages": [
+      "pre_seed",
+      "seed",
+      "series_a"
+    ],
+    "check_size_min_usd": null,
+    "check_size_max_usd": null,
+    "check_size_quote": null,
+    "geographies": [
+      "United States"
+    ],
+    "fintech_verticals": [
+      "not_fintech_specific"
+    ],
+    "impact_mandate": "required",
+    "impact_reporting_standard": [],
+    "thesis_summary": "Invests in tech-driven early-stage companies that close gaps in access, opportunity, or outcomes for low-income communities and/or communities of color in the United States, with potential for large-scale economic success and a commitment to diversity and inclusion.",
+    "stated_criteria": [
+      {
+        "value": "Tech-driven early-stage companies with potential for large-scale economic success.",
+        "source_quote": "Your startup is tech-driven, in the early stage, and has potential for large-scale economic success"
+      },
+      {
+        "value": "Companies should close a significant gap of access, opportunity, or outcome for low-income communities and/or communities of color in the U.S.",
+        "source_quote": "Your startup closes a significant gap of access, opportunity or outcome for low income communities and/or communities of color in the U.S."
+      },
+      {
+        "value": "Founders should be committed to building a diverse team and an inclusive company culture.",
+        "source_quote": "You are committed to building a diverse team and an inclusive company culture as guided by The Founders' Commitment"
+      },
+      {
+        "value": "The firm is particularly interested in problems within African-American and Latinx communities.",
+        "source_quote": "We are particularly interested in those that address the problems within African-American and Latinx communities."
+      }
+    ],
+    "hard_blockers": [
+      {
+        "code": "geo_restricted",
+        "description": "The company must address gaps affecting low-income communities and/or communities of color in the United States.",
+        "source_quote": "Your startup closes a significant gap of access, opportunity or outcome for low income communities and/or communities of color in the U.S."
+      },
+      {
+        "code": "stage_ceiling",
+        "description": "Companies that have passed the pre-seed, seed, or Series A stage are not eligible.",
+        "source_quote": "You have passed the pre-seed, seed, or Series A stage of investment"
+      },
+      {
+        "code": "entity_type",
+        "description": "The product must already be built or deployed.",
+        "source_quote": "Your product has not yet been built or deployed"
+      },
+      {
+        "code": "entity_type",
+        "description": "The company must have a direct impact on underrepresented communities and/or communities of color.",
+        "source_quote": "Your company does not have a direct impact on underrepresented communities and / or communities of color"
+      }
+    ],
+    "regulatory_expectation": "none",
+    "revenue_required": false,
+    "revenue_floor_usd": null,
+    "application_mode": "open_application",
+    "application_url": "https://www.kaporcapital.com/how-we-invest/",
+    "page_supports_extraction": true,
+    "funder_id": "kapor",
+    "name": "Kapor Capital",
+    "source_pages": [
+      "https://www.kaporcapital.com",
+      "https://www.kaporcapital.com/how-we-invest/",
+      "https://www.kaporcapital.com/who-we-are/"
+    ],
+    "last_verified": "2026-10-24",
+    "dropped_unsupported": [],
+    "decision_timeline_weeks": null,
+    "reporting_hours_per_quarter": null,
+    "ops_support": null,
+    "ops_support_detail": null,
+    "actively_deploying": null,
+    "founder_notes": null,
+    "confidence": "unknown"
+  },
+  {
+    "category": "equity_vc",
+    "instruments": [],
+    "stages": [
+      "pre_seed",
+      "seed"
+    ],
+    "check_size_min_usd": null,
+    "check_size_max_usd": null,
+    "check_size_quote": null,
+    "geographies": [],
+    "fintech_verticals": [],
+    "impact_mandate": "preferred",
+    "impact_reporting_standard": [],
+    "thesis_summary": "Zeal partners with early-stage founders across financial technology, healthcare, and future of learning and work, with a focus on companies aiming to close gaps in wealth, health, and skills.",
+    "stated_criteria": [
+      {
+        "value": "Early-stage founders building companies in financial technology, healthcare, and future of learning and work.",
+        "source_quote": "We partner with early-stage founders building enduring companies across the financial technology, healthcare, future of learning and work categories"
+      },
+      {
+        "value": "Companies intentionally closing gaps in wealth, health, and skills.",
+        "source_quote": "We invest in companies intentionally closing gaps in wealth, health, and skills and partner long-term to build category-leading businesses"
+      }
+    ],
+    "hard_blockers": [],
+    "regulatory_expectation": "none",
+    "revenue_required": false,
+    "revenue_floor_usd": null,
+    "application_mode": "open_application",
+    "application_url": null,
+    "page_supports_extraction": true,
+    "funder_id": "zeal",
+    "name": "Zeal Capital Partners",
+    "source_pages": [
+      "https://www.zealcapitalpartners.com"
+    ],
+    "last_verified": "2026-10-24",
+    "dropped_unsupported": [],
+    "decision_timeline_weeks": null,
+    "reporting_hours_per_quarter": null,
+    "ops_support": null,
+    "ops_support_detail": null,
+    "actively_deploying": null,
+    "founder_notes": null,
+    "confidence": "unknown"
+  },
+  {
+    "category": "equity_vc",
+    "instruments": [],
+    "stages": [
+      "seed",
+      "series_a"
+    ],
+    "check_size_min_usd": null,
+    "check_size_max_usd": null,
+    "check_size_quote": null,
+    "geographies": [
+      "United States"
+    ],
+    "fintech_verticals": [
+      "not_fintech_specific"
+    ],
+    "impact_mandate": "preferred",
+    "impact_reporting_standard": [],
+    "thesis_summary": "Invests in early-stage startups led by founders whose lived experiences give them an advantage in addressing consequential problems, particularly in economic mobility, community infrastructure, and healthcare access.",
+    "stated_criteria": [
+      {
+        "value": "Founders\u2019 lived experiences provide a competitive advantage in building solutions to consequential problems.",
+        "source_quote": "We invest in founders who have the lived experiences that give them a competitive advantage in building effective solutions to consequential problems."
+      },
+      {
+        "value": "The firm likes founders who are coachable, hardworking, transparent, and passionate about driving tangible change for their communities.",
+        "source_quote": "We like working with founders who are coachable, hardworking, transparent and who share our passion for driving tangible change for their communities."
+      },
+      {
+        "value": "The firm seeks founders and teams demonstrating top 10% talent in their field, and welcomes repeat founders and teams who have worked together before.",
+        "source_quote": "We are seeking founders and teams who have demonstrated they are in the top 10% of talent in their given field. We love meeting repeat founders and teams who have worked together in the past."
+      },
+      {
+        "value": "The firm evaluates companies throughout the United States and is especially excited by entrepreneurs building in cities with high customer and talent concentration.",
+        "source_quote": "While we will evaluate companies anywhere in the United States, but are especially excited when we find entrepreneurs building in cities with high customer and talent concentration."
+      },
+      {
+        "value": "The firm is particularly interested in technology increasing access to economic mobility, affordable and quality care, and community infrastructure.",
+        "source_quote": "We're particularly interested in companies building technology that will provide greater access to economic mobility, access to affordable and quality care, and community infrastructure."
+      },
+      {
+        "value": "The firm invests in companies approaching $1B market sizes with high growth rates and prefers potential market leaders or companies creating new markets.",
+        "source_quote": "We invest in companies approaching market sizes of $1B with high growth rates. We prefer to invest in companies that are poised to be market leaders, or are creating new markets all together."
+      },
+      {
+        "value": "The firm invests early and likes to see early evidence that customers will pay for the product.",
+        "source_quote": "While we invest in companies early, we do like to see early evidence that customers will pay for your product and our capital and connections can be used as a growth accelerant."
+      }
+    ],
+    "hard_blockers": [],
+    "regulatory_expectation": "none",
+    "revenue_required": false,
+    "revenue_floor_usd": null,
+    "application_mode": "open_application",
+    "application_url": "https://www.collab.capital/who-we-fund",
+    "page_supports_extraction": true,
+    "funder_id": "collab",
+    "name": "Collab Capital",
+    "source_pages": [
+      "https://www.collab.capital/",
+      "https://www.collab.capital/who-we-fund",
+      "https://www.collab.capital/",
+      "https://www.collab.capital/who-we-are"
+    ],
+    "last_verified": "2026-10-24",
+    "dropped_unsupported": [],
+    "decision_timeline_weeks": null,
+    "reporting_hours_per_quarter": null,
+    "ops_support": null,
+    "ops_support_detail": null,
+    "actively_deploying": null,
+    "founder_notes": null,
+    "confidence": "unknown"
+  },
+  {
+    "category": "equity_vc",
+    "instruments": [],
+    "stages": [
+      "pre_seed",
+      "seed"
+    ],
+    "check_size_min_usd": 1000000,
+    "check_size_max_usd": 2500000,
+    "check_size_quote": "We are currently making investments of $1M-$2.5M in Pre-Seed and Seed rounds.",
+    "geographies": [
+      "United States"
+    ],
+    "fintech_verticals": [
+      "not_fintech_specific"
+    ],
+    "impact_mandate": "none",
+    "impact_reporting_standard": [],
+    "thesis_summary": "Harlem Capital invests in early-stage companies with resilient management teams, disruptive business models, and large markets, targeting Pre-Seed and Seed rounds.",
+    "stated_criteria": [
+      {
+        "value": "At least one full-time founder",
+        "source_quote": "Resilient management team with at least one full-time founder"
+      },
+      {
+        "value": "No product or revenue requirements",
+        "source_quote": "We are early-stage investors, so we have no product or revenue requirements"
+      },
+      {
+        "value": "Disruptive business model solving an important problem",
+        "source_quote": "Disruptive business model solving an important problem"
+      },
+      {
+        "value": "Large market size ($1B+) with positive demand drivers",
+        "source_quote": "Large market size ($1B+) with positive demand drivers"
+      },
+      {
+        "value": "Priced or capped Pre-Seed or Seed Round (10%+ ownership target)",
+        "source_quote": "Priced or capped Pre-Seed or Seed Round (10%+ ownership target)"
+      }
+    ],
+    "hard_blockers": [
+      {
+        "code": "geo_restricted",
+        "description": "Only U.S.-based companies are eligible.",
+        "source_quote": "We only invest in U.S. based companies."
+      }
+    ],
+    "regulatory_expectation": "none",
+    "revenue_required": false,
+    "revenue_floor_usd": null,
+    "application_mode": "open_application",
+    "application_url": "https://harlem.capital/pitch/",
+    "page_supports_extraction": true,
+    "funder_id": "harlem",
+    "name": "Harlem Capital",
+    "source_pages": [
+      "https://harlem.capital",
+      "https://harlem.capital/pitch/",
+      "https://harlem.capital/hcp-overview/harlem-capital-founder-overview-winter-2026/"
+    ],
+    "last_verified": "2026-10-24",
+    "dropped_unsupported": [],
+    "decision_timeline_weeks": null,
+    "reporting_hours_per_quarter": null,
+    "ops_support": null,
+    "ops_support_detail": null,
+    "actively_deploying": null,
+    "founder_notes": null,
+    "confidence": "unknown"
+  },
+  {
+    "category": "equity_vc",
+    "instruments": [
+      "equity"
+    ],
+    "stages": [
+      "pre_seed",
+      "seed"
+    ],
+    "check_size_min_usd": 500000,
+    "check_size_max_usd": 1000000,
+    "check_size_quote": "We lead and co-lead pre-seed and seed rounds with initial investments of $500k to $1M.",
+    "geographies": [],
+    "fintech_verticals": [
+      "not_fintech_specific"
+    ],
+    "impact_mandate": "required",
+    "impact_reporting_standard": [],
+    "thesis_summary": "Backs mission-driven startups using science and technology to build a better world, with themes spanning sustainable industry, human health, and workforce development. Focuses on B2B solutions using breakthrough innovations in AI/ML, software, materials science, and biotechnology.",
+    "stated_criteria": [
+      {
+        "value": "Focuses on B2B solutions using breakthrough innovations in AI/ML, software, materials science, and biotechnology.",
+        "source_quote": "We focus on B2B solutions that harness the power of breakthrough innovations in AI/ML, software, materials science, and biotechnology."
+      },
+      {
+        "value": "Every invested company addresses at least one UN Sustainable Development Goal.",
+        "source_quote": "Every company we invest in addresses at least one of the UN's Sustainable Development Goals."
+      },
+      {
+        "value": "Strives to invest in founders who reflect the diversity of society.",
+        "source_quote": "We strive to invest in founders who reflect the diversity of our society."
+      }
+    ],
+    "hard_blockers": [],
+    "regulatory_expectation": "none",
+    "revenue_required": false,
+    "revenue_floor_usd": null,
+    "application_mode": "open_application",
+    "application_url": null,
+    "page_supports_extraction": true,
+    "funder_id": "betterventures",
+    "name": "Better Ventures",
+    "source_pages": [
+      "https://www.better.vc",
+      "https://www.better.vc",
+      "https://www.better.vc/about"
+    ],
+    "last_verified": "2026-10-24",
+    "dropped_unsupported": [],
+    "decision_timeline_weeks": null,
+    "reporting_hours_per_quarter": null,
+    "ops_support": null,
+    "ops_support_detail": null,
+    "actively_deploying": null,
+    "founder_notes": null,
+    "confidence": "unknown"
+  },
+  {
+    "category": "corporate_impact",
+    "instruments": [],
+    "stages": [],
+    "check_size_min_usd": null,
+    "check_size_max_usd": null,
+    "check_size_quote": null,
+    "geographies": [],
+    "fintech_verticals": [
+      "not_fintech_specific"
+    ],
+    "impact_mandate": "none",
+    "impact_reporting_standard": [],
+    "thesis_summary": "Omidyar Network focuses on guiding technology\u2019s influence on society and supports diverse perspectives reimagining tech and its influence. Its dual-checkbook structure backs for-profit businesses and nonprofit organizations.",
+    "stated_criteria": [
+      {
+        "value": "Omidyar Network actively seeks out and supports diverse perspectives reimagining tech and its influence.",
+        "source_quote": "We take a 'big tent' approach, actively seeking out and supporting diverse perspectives reimagining tech and its influence."
+      },
+      {
+        "value": "Omidyar Network backs for-profit businesses and nonprofit organizations.",
+        "source_quote": "Our dual checkbook structure enables us to back for-profit businesses and nonprofit organizations whose complementary roles have an outsized influence over our digital future."
+      }
+    ],
+    "hard_blockers": [],
+    "regulatory_expectation": "none",
+    "revenue_required": false,
+    "revenue_floor_usd": null,
+    "application_mode": "open_application",
+    "application_url": null,
+    "page_supports_extraction": true,
+    "funder_id": "omidyar",
+    "name": "Omidyar Network",
+    "source_pages": [
+      "https://omidyar.com",
+      "https://omidyar.com/where-we-focus/",
+      "https://omidyar.com/how-we-invest/"
+    ],
+    "last_verified": "2026-10-24",
+    "dropped_unsupported": [],
+    "decision_timeline_weeks": null,
+    "reporting_hours_per_quarter": null,
+    "ops_support": null,
+    "ops_support_detail": null,
+    "actively_deploying": null,
+    "founder_notes": null,
+    "confidence": "unknown"
+  },
+  {
+    "category": "corporate_impact",
+    "instruments": [],
+    "stages": [],
+    "check_size_min_usd": null,
+    "check_size_max_usd": null,
+    "check_size_quote": null,
+    "geographies": [],
+    "fintech_verticals": [],
+    "impact_mandate": "none",
+    "impact_reporting_standard": [],
+    "thesis_summary": "",
+    "stated_criteria": [],
+    "hard_blockers": [],
+    "regulatory_expectation": "none",
+    "revenue_required": false,
+    "revenue_floor_usd": null,
+    "application_mode": "open_application",
+    "application_url": null,
+    "page_supports_extraction": false,
+    "funder_id": "citiimpact",
+    "name": "Citi Impact Fund",
+    "source_pages": [
+      "https://www.citigroup.com/global",
+      "https://www.citigroup.com/global/about-us",
+      "https://www.citigroup.com/global/businesses"
+    ],
+    "last_verified": "2026-10-24",
+    "dropped_unsupported": [],
+    "decision_timeline_weeks": null,
+    "reporting_hours_per_quarter": null,
+    "ops_support": null,
+    "ops_support_detail": null,
+    "actively_deploying": null,
+    "founder_notes": null,
+    "confidence": "unknown"
+  },
+  {
+    "category": "corporate_impact",
+    "instruments": [],
+    "stages": [],
+    "check_size_min_usd": null,
+    "check_size_max_usd": null,
+    "check_size_quote": null,
+    "geographies": [],
+    "fintech_verticals": [
+      "not_fintech_specific"
+    ],
+    "impact_mandate": "none",
+    "impact_reporting_standard": [],
+    "thesis_summary": "The supplied pages describe Prudential\u2019s consumer financial products and customer support, but do not describe Prudential Impact Investments or its funding criteria.",
+    "stated_criteria": [],
+    "hard_blockers": [],
+    "regulatory_expectation": "none",
+    "revenue_required": false,
+    "revenue_floor_usd": null,
+    "application_mode": "open_application",
+    "application_url": null,
+    "page_supports_extraction": false,
+    "funder_id": "prudential",
+    "name": "Prudential Impact Investments",
+    "source_pages": [
+      "https://www.prudential.com",
+      "https://www.prudential.com/links/help-center"
+    ],
+    "last_verified": "2026-10-24",
+    "dropped_unsupported": [],
+    "decision_timeline_weeks": null,
+    "reporting_hours_per_quarter": null,
+    "ops_support": null,
+    "ops_support_detail": null,
+    "actively_deploying": null,
+    "founder_notes": null,
+    "confidence": "unknown"
+  },
+  {
+    "category": "grant",
+    "instruments": [
+      "grant"
+    ],
+    "stages": [],
+    "check_size_min_usd": 5000,
+    "check_size_max_usd": 100000,
+    "check_size_quote": "The program supports four focus areas, providing programmatic support through grants between $5,000 and $100,000.",
+    "geographies": [],
+    "fintech_verticals": [
+      "not_fintech_specific"
+    ],
+    "impact_mandate": "none",
+    "impact_reporting_standard": [],
+    "thesis_summary": "MetLife Foundation supports economic mobility through grants, impact investments, and volunteering. Its Community Impact Grant Program provides grants to local grassroots organizations addressing immediate community needs related to hunger relief and nutrition, physical and mental well-being, the\u73af\u5883,",
+    "stated_criteria": [
+      {
+        "value": "The Community Impact Grant Program supports local grassroots organizations providing immediate assistance to communities impacted by the growing income and wealth divide.",
+        "source_quote": "The Community Impact Grant Program \nsupports local grassroots organizations who are providing \nimmediate assistance to communities impacted by the \ngrowing income and wealth divide."
+      },
+      {
+        "value": "The program's focus areas are hunger relief and nutrition, physical and mental well-being, environmental sustainability, and quality of life.",
+        "source_quote": "The program supports four focus areas, providing \nprogrammatic support through grants between $5,000 and \n$100,000."
+      },
+      {
+        "value": "MetLife Foundation grants align with the UN Sustainable Development Goals and its strategic giving portfolios.",
+        "source_quote": "MetLife Foundation grants align with the UN Sustainable Development Goals and across our strategic giving portfolios."
+      }
+    ],
+    "hard_blockers": [],
+    "regulatory_expectation": "none",
+    "revenue_required": false,
+    "revenue_floor_usd": null,
+    "application_mode": "open_application",
+    "application_url": null,
+    "page_supports_extraction": true,
+    "funder_id": "metlifefdn",
+    "name": "MetLife Foundation",
+    "source_pages": [
+      "https://www.metlife.com/global/impact/metlife-foundation/",
+      "https://www.metlife.com/global/impact/metlife-foundation/our-work/",
+      "https://www.metlife.com/content/dam/metlifecom/us/sustainability/Sustainability-2023/sustainability-evergreen-microsite/metlife-foundation/resources/pdf/2024/MetLife-Foundation-CIGP-Recipients_2024.pdf",
+      "https://www.metlife.com/content/dam/metlifecom/us/sustainability/Sustainability-2023/sustainability-evergreen-microsite/metlife-foundation/resources/pdf/2023/community-impact-grant-recipient/MetLife_Foundation_CIGP_Grant_Recipients_2023.pdf"
+    ],
+    "last_verified": "2026-10-24",
+    "dropped_unsupported": [],
+    "decision_timeline_weeks": null,
+    "reporting_hours_per_quarter": null,
+    "ops_support": null,
+    "ops_support_detail": null,
+    "actively_deploying": null,
+    "founder_notes": null,
+    "confidence": "unknown"
+  },
+  {
+    "category": "corporate_impact",
+    "instruments": [],
+    "stages": [],
+    "check_size_min_usd": null,
+    "check_size_max_usd": null,
+    "check_size_quote": null,
+    "geographies": [],
+    "fintech_verticals": [
+      "not_fintech_specific"
+    ],
+    "impact_mandate": "none",
+    "impact_reporting_standard": [],
+    "thesis_summary": "The supplied pages describe Mastercard Center for Inclusive Growth\u2019s focus areas and Mastercard Impact Fund, but do not state funding eligibility criteria.",
+    "stated_criteria": [],
+    "hard_blockers": [],
+    "regulatory_expectation": "none",
+    "revenue_required": false,
+    "revenue_floor_usd": null,
+    "application_mode": "open_application",
+    "application_url": null,
+    "page_supports_extraction": false,
+    "funder_id": "mastercardcig",
+    "name": "Mastercard Center for Inclusive Growth",
+    "source_pages": [
+      "https://www.mastercardcenter.org",
+      "https://www.mastercardcenter.org",
+      "https://www.mastercardcenter.org/focus-areas",
+      "https://www.mastercardcenter.org/about-the-center/mastercard-impact-fund"
+    ],
+    "last_verified": "2026-10-24",
+    "dropped_unsupported": [],
+    "decision_timeline_weeks": null,
+    "reporting_hours_per_quarter": null,
+    "ops_support": null,
+    "ops_support_detail": null,
+    "actively_deploying": null,
+    "founder_notes": null,
+    "confidence": "unknown"
+  },
+  {
+    "category": "corporate_impact",
+    "instruments": [],
+    "stages": [],
+    "check_size_min_usd": null,
+    "check_size_max_usd": null,
+    "check_size_quote": null,
+    "geographies": [],
+    "fintech_verticals": [
+      "not_fintech_specific"
+    ],
+    "impact_mandate": "none",
+    "impact_reporting_standard": [],
+    "thesis_summary": "Mastercard Strive equips small businesses with digital solutions to help them build resilience and grow. The page presents innovation fund winners and other programs, but does not state applicant eligibility or funding terms.",
+    "stated_criteria": [
+      {
+        "value": "The initiative is focused on equipping small businesses with digital solutions to build resilience and grow.",
+        "source_quote": "Mastercard Strive is equipping ten million small businesses with innovative digital solutions to enable them to build resilience and grow."
+      }
+    ],
+    "hard_blockers": [],
+    "regulatory_expectation": "none",
+    "revenue_required": false,
+    "revenue_floor_usd": null,
+    "application_mode": "open_application",
+    "application_url": null,
+    "page_supports_extraction": true,
+    "funder_id": "strive",
+    "name": "Mastercard Strive",
+    "source_pages": [
+      "https://www.mastercardstrive.org/",
+      "https://www.mastercardstrive.org/about",
+      "https://www.mastercardstrive.org/faq",
+      "https://www.mastercardstrive.org/programs?filter.type=Innovation%20Fund%20Winner"
+    ],
+    "last_verified": "2026-10-24",
+    "dropped_unsupported": [],
+    "decision_timeline_weeks": null,
+    "reporting_hours_per_quarter": null,
+    "ops_support": null,
+    "ops_support_detail": null,
+    "actively_deploying": null,
+    "founder_notes": null,
+    "confidence": "unknown"
+  },
+  {
+    "category": "corporate_impact",
+    "instruments": [],
+    "stages": [],
+    "check_size_min_usd": null,
+    "check_size_max_usd": null,
+    "check_size_quote": null,
+    "geographies": [],
+    "fintech_verticals": [],
+    "impact_mandate": "none",
+    "impact_reporting_standard": [],
+    "thesis_summary": "",
+    "stated_criteria": [],
+    "hard_blockers": [],
+    "regulatory_expectation": "none",
+    "revenue_required": false,
+    "revenue_floor_usd": null,
+    "application_mode": "open_application",
+    "application_url": null,
+    "page_supports_extraction": false,
+    "funder_id": "wellsfargo",
+    "name": "Wells Fargo Foundation",
+    "source_pages": [
+      "https://www.wellsfargo.com",
+      "https://www.wellsfargo.com/mortgage/apply/",
+      "https://www.wellsfargo.com/help/loans/personal-loan-faqs/?sub_channel=WEB&vendor_code=WF&linkloc=FNPLFAQ",
+      "https://www.wellsfargo.com/about/"
+    ],
+    "last_verified": "2026-10-24",
+    "dropped_unsupported": [],
+    "decision_timeline_weeks": null,
+    "reporting_hours_per_quarter": null,
+    "ops_support": null,
+    "ops_support_detail": null,
+    "actively_deploying": null,
+    "founder_notes": null,
+    "confidence": "unknown"
+  },
+  {
+    "category": "grant",
+    "instruments": [
+      "grant"
+    ],
+    "stages": [],
+    "check_size_min_usd": null,
+    "check_size_max_usd": null,
+    "check_size_quote": null,
+    "geographies": [],
+    "fintech_verticals": [
+      "not_fintech_specific"
+    ],
+    "impact_mandate": "required",
+    "impact_reporting_standard": [],
+    "thesis_summary": "Provides grants to nonprofit organizations for initiatives aligned with building career pathways to economic mobility and strengthening small businesses. The foundation focuses on innovative, sustainable programs serving adults and strengthening the supports available to diverse small businesses and",
+    "stated_criteria": [
+      {
+        "value": "Applicants should be innovative nonprofits working with adults and aligned with the foundation\u2019s focus areas.",
+        "source_quote": "We support our communities by investing in innovative nonprofits that work with adults and align with our key areas of focus:"
+      },
+      {
+        "value": "Funding is intended for sustainable needs, such as program launches, curriculum, equipment, and capital needs, rather than recurring expenditures.",
+        "source_quote": "We support needs that are sustainable and don't commit funds to recurring expenditures."
+      },
+      {
+        "value": "Career pathway grants focus on adults seeking middle-skill careers and improved financial security.",
+        "source_quote": "Within our Building Career Pathways to Economic Mobility pillar, our goal is to help job seekers enter middle skill careers to improve their financial security and ease mental burdens associated with not earning a living wage."
+      },
+      {
+        "value": "Small-business grants may support programs such as accelerators, CDFIs, or cohorts of business owners.",
+        "source_quote": "Our grants may support a local or national business accelerator, such as the University Innovation Center."
+      },
+      {
+        "value": "Applications are accepted through an open, online application process.",
+        "source_quote": "At Truist Foundation, we have an open grant application process, meaning organizations do not have to be invited to apply for a Truist Foundation grant."
+      }
+    ],
+    "hard_blockers": [
+      {
+        "code": "nonprofit_only",
+        "description": "Only nonprofit organizations may receive grants.",
+        "source_quote": "All of our grants must go to nonprofit organizations."
+      },
+      {
+        "code": "entity_type",
+        "description": "The foundation does not provide funding directly to small businesses.",
+        "source_quote": "Also, the foundation will not provide funding directly to small businesses."
+      },
+      {
+        "code": "entity_type",
+        "description": "Career-pathway funding excludes primary education programs focused on K\u201312 students or people under 18.",
+        "source_quote": "We would not be able to support primary education programs focused on kindergarten through twelfth grade students or anyone under the age of eighteen."
+      },
+      {
+        "code": "entity_type",
+        "description": "Career-pathway funding excludes programs for adults already in stable, well-paying jobs with four-year or advanced degrees, and leadership programs for people who followed a traditional college track.",
+        "source_quote": "In addition, Truist Foundation will not support programs for adults who are already in a stable, well paying job with a four year degree or another advanced degree, or leadership programs for individuals who have been through a traditional college track to advance in their career."
+      },
+      {
+        "code": "entity_type",
+        "description": "The foundation does not support scholarships or standard undergraduate or postgraduate higher-education classes or buildings.",
+        "source_quote": "The foundation will not support scholarships, including need based scholarships, and we won't support a standard higher education class or building at an undergraduate or postgraduate program."
+      },
+      {
+        "code": "entity_type",
+        "description": "The foundation does not provide general operating support.",
+        "source_quote": "Finally, the foundation will not provide general operating support."
+      },
+      {
+        "code": "entity_type",
+        "description": "Small-business initiatives must provide direct service to small-business owners and support all types of entrepreneurs.",
+        "source_quote": "The foundation also will not support initiatives that do not provide direct service to small business owners, or those that do not support all types of entrepreneurs."
+      },
+      {
+        "code": "entity_type",
+        "description": "The foundation will not fund general operating support for local chambers of commerce, or membership dues.",
+        "source_quote": "We will not support a local chamber of commerce for general operating support, and we will not support membership dues."
+      },
+      {
+        "code": "entity_type",
+        "description": "The foundation will not fund general operating support for local economic development agencies or community development corporations.",
+        "source_quote": "Finally, the foundation will not support a local economic development agency or a community development corporation for general operating support."
+      }
+    ],
+    "regulatory_expectation": "none",
+    "revenue_required": false,
+    "revenue_floor_usd": null,
+    "application_mode": "deadline_based",
+    "application_url": "https://www.truistfoundation.org/grant-application",
+    "page_supports_extraction": true,
+    "funder_id": "truist",
+    "name": "Truist Foundation",
+    "source_pages": [
+      "https://www.truistfoundation.org",
+      "https://www.truistfoundation.org/grant-application",
+      "https://www.truistfoundation.org/inspire-awards",
+      "https://www.truistfoundation.org/"
+    ],
+    "last_verified": "2026-10-24",
+    "dropped_unsupported": [],
+    "decision_timeline_weeks": null,
+    "reporting_hours_per_quarter": null,
+    "ops_support": null,
+    "ops_support_detail": null,
+    "actively_deploying": null,
+    "founder_notes": null,
+    "confidence": "unknown"
+  },
+  {
+    "category": "corporate_impact",
+    "instruments": [],
+    "stages": [],
+    "check_size_min_usd": null,
+    "check_size_max_usd": null,
+    "check_size_quote": null,
+    "geographies": [],
+    "fintech_verticals": [],
+    "impact_mandate": "none",
+    "impact_reporting_standard": [],
+    "thesis_summary": "",
+    "stated_criteria": [],
+    "hard_blockers": [],
+    "regulatory_expectation": "none",
+    "revenue_required": false,
+    "revenue_floor_usd": null,
+    "application_mode": "open_application",
+    "application_url": null,
+    "page_supports_extraction": false,
+    "funder_id": "capitalone",
+    "name": "Capital One Impact Initiative",
+    "source_pages": [
+      "https://www.capitalone.com",
+      "https://www.capitalone.com/about/",
+      "https://www.capitalone.com/local/money-and-life/"
+    ],
+    "last_verified": "2026-10-24",
+    "dropped_unsupported": [],
+    "decision_timeline_weeks": null,
+    "reporting_hours_per_quarter": null,
+    "ops_support": null,
+    "ops_support_detail": null,
+    "actively_deploying": null,
+    "founder_notes": null,
+    "confidence": "unknown"
+  },
+  {
+    "category": "grant_challenge",
+    "instruments": [],
+    "stages": [],
+    "check_size_min_usd": null,
+    "check_size_max_usd": null,
+    "check_size_quote": null,
+    "geographies": [
+      "Global"
+    ],
+    "fintech_verticals": [
+      "not_fintech_specific"
+    ],
+    "impact_mandate": "required",
+    "impact_reporting_standard": [],
+    "thesis_summary": "MIT Solve describes itself as moving capital to innovators solving global challenges and says it created a fund with early-stage innovators in mind.",
+    "stated_criteria": [
+      {
+        "value": "Solutions should address social impact goals and global challenges.",
+        "source_quote": "We'll work with you to design a custom challenge based on your social impact goals."
+      },
+      {
+        "value": "The fund is intended for early-stage innovators.",
+        "source_quote": "We created a fund with early-stage innovators in mind."
+      }
+    ],
+    "hard_blockers": [],
+    "regulatory_expectation": "none",
+    "revenue_required": false,
+    "revenue_floor_usd": null,
+    "application_mode": "deadline_based",
+    "application_url": null,
+    "page_supports_extraction": true,
+    "funder_id": "mitsolve",
+    "name": "MIT Solve",
+    "source_pages": [
+      "https://solve.mit.edu",
+      "https://solve.mit.edu/events/?searchEventsBy=application+clinic",
+      "https://solve.mit.edu/about"
+    ],
+    "last_verified": "2026-10-24",
+    "dropped_unsupported": [],
+    "decision_timeline_weeks": null,
+    "reporting_hours_per_quarter": null,
+    "ops_support": null,
+    "ops_support_detail": null,
+    "actively_deploying": null,
+    "founder_notes": null,
+    "confidence": "unknown"
+  },
+  {
+    "category": "fellowship",
+    "instruments": [],
+    "stages": [],
+    "check_size_min_usd": null,
+    "check_size_max_usd": null,
+    "check_size_quote": null,
+    "geographies": [
+      "Global"
+    ],
+    "fintech_verticals": [
+      "not_fintech_specific"
+    ],
+    "impact_mandate": "required",
+    "impact_reporting_standard": [],
+    "thesis_summary": "Echoing Green supports early-stage social entrepreneurs and leaders building organizations to address major challenges, with an emphasis on leaders\u2019 knowledge of the issue and connection to the communities they serve.",
+    "stated_criteria": [
+      {
+        "value": "Applicants should be leaders with expertise in the challenge their enterprise addresses, and their enterprise should be at an early stage.",
+        "source_quote": "This Fellowship is for people whose enterprises are at an early stage and who are experts on the challenge they've chosen to confront."
+      },
+      {
+        "value": "Applicants should reflect and bring deep knowledge of the communities and issues their work serves.",
+        "source_quote": "We seek leaders who reflect the community they serve and bring deep knowledge of the issues into their work as they co-design solutions with and for their communities."
+      },
+      {
+        "value": "Organizations may be early-stage if they have operated with full-time staff for less than five years or still need resources to grow and sustain operations.",
+        "source_quote": "We generally describe early-stage organizations or ideas as those that 1) have operated with full-time staff for less than five years or 2) still need resources to grow and sustain their operations."
+      }
+    ],
+    "hard_blockers": [
+      {
+        "code": "closed_program",
+        "description": "The 2026 Fellowship application period is closed.",
+        "source_quote": "Applications for the 2026 Fellowship are now closed"
+      },
+      {
+        "code": "stage_floor",
+        "description": "Applicants must be at least 18 by the stated date.",
+        "source_quote": "Echoing Green Fellowship applicants must be 18 years or older by June 1, 2026."
+      },
+      {
+        "code": "entity_type",
+        "description": "Applicants must be able to communicate proficiently in English.",
+        "source_quote": "To be eligible for the Fellowship and fully participate in programming and support offerings, you must be able to proficiently communicate in English."
+      },
+      {
+        "code": "entity_type",
+        "description": "The applicant must be an original founder or leading member of the organization's original founding team.",
+        "source_quote": "To be eligible, you must be a leader with decision-making power within the organization and be either 1) a sole founder or 2) a leading founder on a team of people who created the organization."
+      },
+      {
+        "code": "entity_type",
+        "description": "The applicant must be the organization's primary decision maker.",
+        "source_quote": "To be eligible for an Echoing Green Fellowship, applicants must be the primary decision maker and have the ultimate authority over your organization's growth and strategic vision."
+      },
+      {
+        "code": "entity_type",
+        "description": "The applicant must work full time on the proposed organization throughout the Fellowship.",
+        "source_quote": "If selected for an Echoing Green Fellowship, you may hold other professional responsibilities, but you must work full time, defined here as 40 hours a week, on the work outlined in your Fellowship application, and it must remain as your main professional priority."
+      },
+      {
+        "code": "entity_type",
+        "description": "The organization must operate autonomously and retain its own decision-making authority.",
+        "source_quote": "To be eligible for an Echoing Green Fellowship, you must be able to make and act on organizational decisions of your own choosing."
+      },
+      {
+        "code": "excluded_vertical",
+        "description": "Organizations whose primary purpose is lobbying cannot receive funds.",
+        "source_quote": "Per the U.S. Internal Revenue Service, Echoing Green cannot distribute funds to organizations whose primary purpose is lobbying."
+      },
+      {
+        "code": "excluded_vertical",
+        "description": "The organization cannot recruit, promote, or convert its constituency to a specific religious faith.",
+        "source_quote": "To be eligible for an Echoing Green Fellowship, the organization cannot engage in recruitment, promotion, or conversion for a specific religious faith to your constituency."
+      },
+      {
+        "code": "affiliation_required",
+        "description": "No founding team member or person in a leadership position may previously have received an Echoing Green Fellowship.",
+        "source_quote": "For you and your organization to be eligible for an Echoing Green Fellowship, no founding team members and no people in a leadership position can be an Echoing Green Fellow."
+      }
+    ],
+    "regulatory_expectation": "none",
+    "revenue_required": false,
+    "revenue_floor_usd": null,
+    "application_mode": "deadline_based",
+    "application_url": "https://echoinggreen.org/fellowship/apply/",
+    "page_supports_extraction": true,
+    "funder_id": "echoinggreen",
+    "name": "Echoing Green",
+    "source_pages": [
+      "https://echoinggreen.org",
+      "https://echoinggreen.org/fellowship/apply/",
+      "https://echoinggreen.org/fellowship/apply",
+      "https://echoinggreen.org/about/"
+    ],
+    "last_verified": "2026-10-24",
+    "dropped_unsupported": [],
+    "decision_timeline_weeks": null,
+    "reporting_hours_per_quarter": null,
+    "ops_support": null,
+    "ops_support_detail": null,
+    "actively_deploying": null,
+    "founder_notes": null,
+    "confidence": "unknown"
+  },
+  {
+    "category": "government",
+    "instruments": [],
+    "stages": [],
+    "check_size_min_usd": null,
+    "check_size_max_usd": null,
+    "check_size_quote": null,
+    "geographies": [],
+    "fintech_verticals": [
+      "not_fintech_specific"
+    ],
+    "impact_mandate": "none",
+    "impact_reporting_standard": [],
+    "thesis_summary": "The CDFI Fund offers financial and technical assistance awards to CDFIs and provides training and technical assistance for CDFIs.",
+    "stated_criteria": [
+      {
+        "value": "The CDFI Program provides Financial and Technical Assistance awards to CDFIs.",
+        "source_quote": "The CDFI Program provides Financial and Technical Assistance awards to CDFIs."
+      },
+      {
+        "value": "The Capacity Building Initiative is a source of training and technical assistance for CDFIs.",
+        "source_quote": "The Capacity Building Initiative is a source of training and technical assistance for CDFIs."
+      }
+    ],
+    "hard_blockers": [],
+    "regulatory_expectation": "none",
+    "revenue_required": false,
+    "revenue_floor_usd": null,
+    "application_mode": "open_application",
+    "application_url": null,
+    "page_supports_extraction": true,
+    "funder_id": "cdfifund",
+    "name": "CDFI Fund Technical Assistance",
+    "source_pages": [
+      "https://www.cdfifund.gov",
+      "https://www.cdfifund.gov/programs-training/programs/bank-enterprise-award",
+      "https://www.cdfifund.gov/awards",
+      "https://www.cdfifund.gov/awards/state-awards"
+    ],
+    "last_verified": "2026-10-24",
+    "dropped_unsupported": [],
+    "decision_timeline_weeks": null,
+    "reporting_hours_per_quarter": null,
+    "ops_support": null,
+    "ops_support_detail": null,
+    "actively_deploying": null,
+    "founder_notes": null,
+    "confidence": "unknown"
+  },
+  {
+    "category": "government",
+    "instruments": [
+      "grant"
+    ],
+    "stages": [],
+    "check_size_min_usd": null,
+    "check_size_max_usd": 2000000,
+    "check_size_quote": "We invest up to\n$2 million in\nseed funding.",
+    "geographies": [
+      "United States"
+    ],
+    "fintech_verticals": [
+      "not_fintech_specific"
+    ],
+    "impact_mandate": "none",
+    "impact_reporting_standard": [],
+    "thesis_summary": "Funds research and development of deep technologies based on fundamental science and engineering, with commercial potential and possible societal impact.",
+    "stated_criteria": [
+      {
+        "value": "The technology should be based on discoveries in fundamental science or engineering.",
+        "source_quote": "We support research and development of deep technologies - those that are based on discoveries in fundamental science and engineering."
+      },
+      {
+        "value": "The innovation should have commercial potential and possible societal impact.",
+        "source_quote": "As we review applications, we consider your technology's innovativeness, commercial potential, and possible societal impact."
+      },
+      {
+        "value": "The technology should address an important unmet customer need and offer potential to scale.",
+        "source_quote": "You have evidence that your product or service could meet an important, unmet need for your customers."
+      },
+      {
+        "value": "The proposed work should require research and development funding for new products, services, or scalable solutions based on fundamental science or engineering.",
+        "source_quote": "You need research and development funding to create new products, services, and other scalable solutions based on fundamental science or engineering."
+      },
+      {
+        "value": "The program supports startups across nearly all technology areas and markets.",
+        "source_quote": "We fund startups across nearly all technology areas and markets like artificial intelligence, energy, medical devices, robotics, semiconductors, and many more."
+      },
+      {
+        "value": "The program encourages participation from entrepreneurs across the United States, including first-time entrepreneurs.",
+        "source_quote": "Our program fosters and encourages participation in innovation and entrepreneurship from all Americans as well as first-time entrepreneurs from all 50 states and U.S. territories."
+      }
+    ],
+    "hard_blockers": [],
+    "regulatory_expectation": "none",
+    "revenue_required": false,
+    "revenue_floor_usd": null,
+    "application_mode": "deadline_based",
+    "application_url": "https://seedfund.nsf.gov/apply/project-pitch-information/",
+    "page_supports_extraction": true,
+    "funder_id": "nsfsbir",
+    "name": "NSF SBIR/STTR",
+    "source_pages": [
+      "https://seedfund.nsf.gov",
+      "https://seedfund.nsf.gov/apply/project-pitch-information/",
+      "https://seedfund.nsf.gov/awardees/history/",
+      "https://seedfund.nsf.gov/our-program/"
+    ],
+    "last_verified": "2026-10-24",
+    "dropped_unsupported": [],
+    "decision_timeline_weeks": null,
+    "reporting_hours_per_quarter": null,
+    "ops_support": null,
+    "ops_support_detail": null,
+    "actively_deploying": null,
+    "founder_notes": null,
+    "confidence": "unknown"
+  },
+  {
+    "category": "government",
+    "instruments": [
+      "grant"
+    ],
+    "stages": [],
+    "check_size_min_usd": 50000,
+    "check_size_max_usd": 323000,
+    "check_size_quote": "Award Amounts: $50,000-$323,000",
+    "geographies": [
+      "United States"
+    ],
+    "fintech_verticals": [
+      "not_fintech_specific"
+    ],
+    "impact_mandate": "none",
+    "impact_reporting_standard": [],
+    "thesis_summary": "Federal SBIR/STTR programs provide non-dilutive funding to U.S. small businesses to develop technology and move it toward commercialization.",
+    "stated_criteria": [
+      {
+        "value": "The SBIR/STTR programs fund technology-focused entrepreneurs, startups, and small businesses.",
+        "source_quote": "Our mission is to foster a culture of innovation in the United States by providing technology-focused entrepreneurs, startups, and small businesses with funding to develop their ideas and a pathway to commercialization."
+      },
+      {
+        "value": "Small businesses with fewer than 500 employees are identified as potential applicants.",
+        "source_quote": "I'm a small business with fewer than 500 employees"
+      },
+      {
+        "value": "The company\u2019s technology should be able to support government missions.",
+        "source_quote": "My company's technology could help support government missions"
+      },
+      {
+        "value": "The program offers equity-free funding.",
+        "source_quote": "I'm looking for equity-free funding to develop my ideas"
+      }
+    ],
+    "hard_blockers": [
+      {
+        "code": "geo_restricted",
+        "description": "The applicant company must be located in the United States.",
+        "source_quote": "Is a for-profit entity located in the U.S."
+      },
+      {
+        "code": "for_profit_only",
+        "description": "The applicant must be a for-profit entity; nonprofits cannot directly receive an award.",
+        "source_quote": "No. A non-profit organization cannot directly receive an SBIR or STTR award."
+      },
+      {
+        "code": "entity_type",
+        "description": "The applicant must have fewer than 500 employees.",
+        "source_quote": "Has fewer than 500 employees (most applicants have fewer than 10)."
+      },
+      {
+        "code": "entity_type",
+        "description": "The company must be owned and controlled by U.S. citizens or permanent residents.",
+        "source_quote": "Is owned and controlled by U.S. citizens or permanent residents."
+      },
+      {
+        "code": "entity_type",
+        "description": "The company must obtain a Unique Entity ID from SAM.gov to receive an award.",
+        "source_quote": "You must have a Unique Entity ID (UEI) from SAM.gov to receive SBIR/STTR awards."
+      }
+    ],
+    "regulatory_expectation": "none",
+    "revenue_required": false,
+    "revenue_floor_usd": null,
+    "application_mode": "deadline_based",
+    "application_url": "https://www.sbir.gov/apply",
+    "page_supports_extraction": true,
+    "funder_id": "sbirgov",
+    "name": "SBIR.gov",
+    "source_pages": [
+      "https://www.sbir.gov",
+      "https://www.sbir.gov/apply",
+      "https://www.sbir.gov/about"
+    ],
+    "last_verified": "2026-10-24",
+    "dropped_unsupported": [],
+    "decision_timeline_weeks": null,
+    "reporting_hours_per_quarter": null,
+    "ops_support": null,
+    "ops_support_detail": null,
+    "actively_deploying": null,
+    "founder_notes": null,
+    "confidence": "unknown"
+  },
+  {
+    "category": "in_kind",
+    "instruments": [
+      "in_kind"
+    ],
+    "stages": [
+      "series_a"
+    ],
+    "check_size_min_usd": null,
+    "check_size_max_usd": null,
+    "check_size_quote": null,
+    "geographies": [
+      "Around the world"
+    ],
+    "fintech_verticals": [
+      "not_fintech_specific"
+    ],
+    "impact_mandate": "none",
+    "impact_reporting_standard": [],
+    "thesis_summary": "Fintech Sandbox provides early-stage fintech startups around the world with free access to data feeds, APIs, and other resources through its Data Access Residency, so they can build, develop, and test products.",
+    "stated_criteria": [
+      {
+        "value": "Applicants need an annual recurring revenue of less than $1 million USD.",
+        "source_quote": "An annual recurring revenue of less than $1 million USD."
+      },
+      {
+        "value": "Applicants need a dedicated leadership team working full-time or a clear path to full-time.",
+        "source_quote": "A dedicated leadership team working full-time or have a clear path to full-time."
+      },
+      {
+        "value": "Applicants need a CTO and/or developers with the capacity to intake large amounts of data.",
+        "source_quote": "A CTO and/or developers with the capacity to intake large amounts of data."
+      },
+      {
+        "value": "Applicants need an alpha product or demo.",
+        "source_quote": "An alpha product or demo."
+      },
+      {
+        "value": "Applicants need a clear use case for the desired data sets, for testing and development purposes only; program data cannot be used for direct commercialization.",
+        "source_quote": "A clear use case for the desired data sets that are for testing and development purposes only (data accessed through the program cannot be used for direct commercialization)."
+      },
+      {
+        "value": "The program meets companies in the early stages of their life cycle, typically bootstrapped through Series A.",
+        "source_quote": "We meet companies in the early-stages of their life cycle-typically bootstrapped through Series A."
+      },
+      {
+        "value": "The program is free and takes no equity.",
+        "source_quote": "There are no fees and no equity is taken."
+      }
+    ],
+    "hard_blockers": [
+      {
+        "code": "entity_type",
+        "description": "Applicants must be incorporated.",
+        "source_quote": "To be incorporated."
+      }
+    ],
+    "regulatory_expectation": "none",
+    "revenue_required": false,
+    "revenue_floor_usd": null,
+    "application_mode": "rolling",
+    "application_url": "https://www.fintechsandbox.org/apply/",
+    "page_supports_extraction": true,
+    "funder_id": "fintechsandbox",
+    "name": "Fintech Sandbox",
+    "source_pages": [
+      "https://www.fintechsandbox.org/",
+      "https://www.fintechsandbox.org/apply/",
+      "https://www.fintechsandbox.org/for-startups/apply/apply-form/",
+      "https://www.fintechsandbox.org/data-access-residency/"
+    ],
+    "last_verified": "2026-10-24",
+    "dropped_unsupported": [],
+    "decision_timeline_weeks": null,
+    "reporting_hours_per_quarter": null,
+    "ops_support": null,
+    "ops_support_detail": null,
+    "actively_deploying": null,
+    "founder_notes": null,
+    "confidence": "unknown"
+  },
+  {
+    "category": "debt_marketplace",
+    "instruments": [],
+    "stages": [],
+    "check_size_min_usd": null,
+    "check_size_max_usd": null,
+    "check_size_quote": null,
+    "geographies": [],
+    "fintech_verticals": [],
+    "impact_mandate": "none",
+    "impact_reporting_standard": [],
+    "thesis_summary": "The page describes Arc as a cash management and financial services platform for technology companies, not as a funder or funding program.",
+    "stated_criteria": [],
+    "hard_blockers": [],
+    "regulatory_expectation": "none",
+    "revenue_required": false,
+    "revenue_floor_usd": null,
+    "application_mode": "open_application",
+    "application_url": null,
+    "page_supports_extraction": false,
+    "funder_id": "arc",
+    "name": "Arc",
+    "source_pages": [
+      "https://www.joinarc.com/"
+    ],
+    "last_verified": "2026-10-24",
+    "dropped_unsupported": [],
+    "decision_timeline_weeks": null,
+    "reporting_hours_per_quarter": null,
+    "ops_support": null,
+    "ops_support_detail": null,
+    "actively_deploying": null,
+    "founder_notes": null,
+    "confidence": "unknown"
+  },
+  {
+    "category": "revenue_based",
+    "instruments": [
+      "revenue_share"
+    ],
+    "stages": [],
+    "check_size_min_usd": null,
+    "check_size_max_usd": 10000000,
+    "check_size_quote": "Get up to $10M in founder-friendly financing that fits your business.",
+    "geographies": [
+      "United States",
+      "Canada",
+      "Australia"
+    ],
+    "fintech_verticals": [
+      "not_fintech_specific"
+    ],
+    "impact_mandate": "none",
+    "impact_reporting_standard": [],
+    "thesis_summary": "Provides non-dilutive financing for growing SaaS and other tech startups with recurring revenue, using business revenue and other objective metrics to assess applications.",
+    "stated_criteria": [
+      {
+        "value": "At least 5 paying customers",
+        "source_quote": "You have\nat least 5 paying customers"
+      },
+      {
+        "value": "Software, hardware, or tech solutions with a recurring revenue pricing model, such as subscriptions or annual contracts",
+        "source_quote": "Software, hardware, or tech solutions\nwith a recurring revenue pricing model (subscriptions or annual contracts)"
+      }
+    ],
+    "hard_blockers": [
+      {
+        "code": "revenue_floor",
+        "description": "Applicants must generate at least $200,000 in annual recurring revenue.",
+        "source_quote": "You're generating\nat least $200K in annual recurring revenue (ARR)"
+      },
+      {
+        "code": "geo_restricted",
+        "description": "Applicants must have a headquarters, branch, or subsidiary in the U.S., Canada, or Australia.",
+        "source_quote": "You have a HQ, branch, or subsidy based in the\nU.S., Canada, or Australia"
+      }
+    ],
+    "regulatory_expectation": "none",
+    "revenue_required": true,
+    "revenue_floor_usd": 200000,
+    "application_mode": "open_application",
+    "application_url": null,
+    "page_supports_extraction": true,
+    "funder_id": "lighter",
+    "name": "Lighter Capital",
+    "source_pages": [
+      "https://www.lightercapital.com",
+      "https://www.lightercapital.com/how-it-works",
+      "https://www.lightercapital.com/apply-now",
+      "https://www.lightercapital.com/faq"
+    ],
+    "last_verified": "2026-10-24",
+    "dropped_unsupported": [],
+    "decision_timeline_weeks": null,
+    "reporting_hours_per_quarter": null,
+    "ops_support": null,
+    "ops_support_detail": null,
+    "actively_deploying": null,
+    "founder_notes": null,
+    "confidence": "unknown"
+  },
+  {
+    "category": "debt",
+    "instruments": [],
+    "stages": [],
+    "check_size_min_usd": null,
+    "check_size_max_usd": null,
+    "check_size_quote": null,
+    "geographies": [],
+    "fintech_verticals": [
+      "lending"
+    ],
+    "impact_mandate": "none",
+    "impact_reporting_standard": [],
+    "thesis_summary": "Capchase provides vendor financing and deal-financing software for B2B software and hardware purchases, serving vendors, resellers, and their buyers. The supplied text does not state funder eligibility criteria.",
+    "stated_criteria": [],
+    "hard_blockers": [],
+    "regulatory_expectation": "none",
+    "revenue_required": false,
+    "revenue_floor_usd": null,
+    "application_mode": "open_application",
+    "application_url": null,
+    "page_supports_extraction": false,
+    "funder_id": "capchase",
+    "name": "Capchase",
+    "source_pages": [
+      "https://www.capchase.com",
+      "https://www.capchase.com/about"
+    ],
+    "last_verified": "2026-10-24",
+    "dropped_unsupported": [],
+    "decision_timeline_weeks": null,
+    "reporting_hours_per_quarter": null,
+    "ops_support": null,
+    "ops_support_detail": null,
+    "actively_deploying": null,
+    "founder_notes": null,
+    "confidence": "unknown"
+  },
+  {
+    "category": "revenue_based",
+    "instruments": [
+      "revenue_share",
+      "venture_debt"
+    ],
+    "stages": [],
+    "check_size_min_usd": null,
+    "check_size_max_usd": 2000000,
+    "check_size_quote": "Flexible Growth Capital\nUp to $2M in revenue-based or hybrid funding options that align repayment with real cash flow - not rigid bank schedules.",
+    "geographies": [],
+    "fintech_verticals": [
+      "not_fintech_specific"
+    ],
+    "impact_mandate": "preferred",
+    "impact_reporting_standard": [],
+    "thesis_summary": "Provides flexible, non-dilutive growth capital, including revenue-based financing and term loans, to service-based B2B and B2G businesses poised to scale, with a focus on businesses creating quality jobs and driving economic mobility in underinvested communities.",
+    "stated_criteria": [
+      {
+        "value": "Service-based and B2B or B2G businesses",
+        "source_quote": "Service-based & B2B or B2G"
+      },
+      {
+        "value": "$500K to $10M+ in annual revenue",
+        "source_quote": "$500K to $10M+ in annual revenue"
+      },
+      {
+        "value": "Poised for growth and ready to scale into the mid-market",
+        "source_quote": "Ready to scale into the mid-market"
+      },
+      {
+        "value": "Prioritizes businesses creating quality jobs and driving economic mobility in underinvested communities",
+        "source_quote": "We prioritize businesses creating quality jobs and driving economic mobility in underinvested communities."
+      }
+    ],
+    "hard_blockers": [],
+    "regulatory_expectation": "none",
+    "revenue_required": true,
+    "revenue_floor_usd": 500000,
+    "application_mode": "open_application",
+    "application_url": "https://foundersfirstcapitalpartners.com/apply",
+    "page_supports_extraction": true,
+    "funder_id": "foundersfirst",
+    "name": "Founders First Capital Partners",
+    "source_pages": [
+      "https://foundersfirstcapitalpartners.com",
+      "https://foundersfirstcapitalpartners.com/apply",
+      "https://foundersfirstcapitalpartners.com/about"
+    ],
+    "last_verified": "2026-10-24",
+    "dropped_unsupported": [],
+    "decision_timeline_weeks": null,
+    "reporting_hours_per_quarter": null,
+    "ops_support": null,
+    "ops_support_detail": null,
+    "actively_deploying": null,
+    "founder_notes": null,
+    "confidence": "unknown"
+  },
+  {
+    "category": "debt",
+    "instruments": [],
+    "stages": [],
+    "check_size_min_usd": null,
+    "check_size_max_usd": null,
+    "check_size_quote": null,
+    "geographies": [],
+    "fintech_verticals": [
+      "not_fintech_specific"
+    ],
+    "impact_mandate": "none",
+    "impact_reporting_standard": [],
+    "thesis_summary": "i80 Group provides tailored, asset-based credit solutions to companies and platforms, including senior credit facilities and programmatic capital commitments.",
+    "stated_criteria": [
+      {
+        "value": "Focuses on asset-backed finance across sectors where traditional capital can be rigid or unavailable.",
+        "source_quote": "We focus on asset-backed finance across sectors where traditional capital can be rigid or unavailable."
+      },
+      {
+        "value": "Works with companies, sponsors, and platforms to design capital solutions.",
+        "source_quote": "We work directly with companies, as well as with sponsors and platforms, to design and deliver capital solutions that go beyond the limitations of conventional financing."
+      }
+    ],
+    "hard_blockers": [],
+    "regulatory_expectation": "none",
+    "revenue_required": false,
+    "revenue_floor_usd": null,
+    "application_mode": "open_application",
+    "application_url": null,
+    "page_supports_extraction": true,
+    "funder_id": "i80",
+    "name": "i80 Group",
+    "source_pages": [
+      "https://www.i80group.com"
+    ],
+    "last_verified": "2026-10-24",
+    "dropped_unsupported": [],
+    "decision_timeline_weeks": null,
+    "reporting_hours_per_quarter": null,
+    "ops_support": null,
+    "ops_support_detail": null,
+    "actively_deploying": null,
+    "founder_notes": null,
+    "confidence": "unknown"
+  },
+  {
+    "category": "debt",
+    "instruments": [],
+    "stages": [],
+    "check_size_min_usd": null,
+    "check_size_max_usd": null,
+    "check_size_quote": null,
+    "geographies": [],
+    "fintech_verticals": [
+      "not_fintech_specific"
+    ],
+    "impact_mandate": "none",
+    "impact_reporting_standard": [],
+    "thesis_summary": "Provides asset-backed credit financing to established and emerging companies and operates in the legal credit market.",
+    "stated_criteria": [
+      {
+        "value": "VPC offers asset-backed credit financing to established and emerging companies across key sectors.",
+        "source_quote": "VPC specializes in asset-backed credit financing, offering flexible solutions to established and emerging companies across key sectors."
+      },
+      {
+        "value": "VPC's legal credit activity is a specialized segment of asset-backed credit.",
+        "source_quote": "VPC brings unparalleled expertise to the legal credit market, a specialized segment of asset-backed credit, characterized by a structural imbalance in capital supply and demand, offering attractive and uncorrelated opportunities."
+      }
+    ],
+    "hard_blockers": [],
+    "regulatory_expectation": "none",
+    "revenue_required": false,
+    "revenue_floor_usd": null,
+    "application_mode": "open_application",
+    "application_url": null,
+    "page_supports_extraction": false,
+    "funder_id": "vpc",
+    "name": "Victory Park Capital",
+    "source_pages": [
+      "https://www.victoryparkcapital.com/"
+    ],
+    "last_verified": "2026-10-24",
+    "dropped_unsupported": [],
+    "decision_timeline_weeks": null,
+    "reporting_hours_per_quarter": null,
+    "ops_support": null,
+    "ops_support_detail": null,
+    "actively_deploying": null,
+    "founder_notes": null,
+    "confidence": "unknown"
+  },
+  {
+    "category": "debt",
+    "instruments": [],
+    "stages": [],
+    "check_size_min_usd": null,
+    "check_size_max_usd": null,
+    "check_size_quote": null,
+    "geographies": [],
+    "fintech_verticals": [],
+    "impact_mandate": "none",
+    "impact_reporting_standard": [],
+    "thesis_summary": "The supplied pages state that Blue Owl acquired Atalaya Capital Management's business, but do not describe Atalaya's funding criteria.",
+    "stated_criteria": [],
+    "hard_blockers": [],
+    "regulatory_expectation": "none",
+    "revenue_required": false,
+    "revenue_floor_usd": null,
+    "application_mode": "open_application",
+    "application_url": null,
+    "page_supports_extraction": false,
+    "funder_id": "atalaya",
+    "name": "Atalaya Capital Management",
+    "source_pages": [
+      "https://www.blueowl.com/",
+      "https://www.blueowl.com/who-we-serve",
+      "https://www.blueowl.com/about-us",
+      "https://www.blueowl.com/credit"
+    ],
+    "last_verified": "2026-10-24",
+    "dropped_unsupported": [],
+    "decision_timeline_weeks": null,
+    "reporting_hours_per_quarter": null,
+    "ops_support": null,
+    "ops_support_detail": null,
+    "actively_deploying": null,
+    "founder_notes": null,
+    "confidence": "unknown"
+  },
+  {
+    "category": "equity_vc",
+    "instruments": [],
+    "stages": [],
+    "check_size_min_usd": null,
+    "check_size_max_usd": null,
+    "check_size_quote": null,
+    "geographies": [],
+    "fintech_verticals": [],
+    "impact_mandate": "none",
+    "impact_reporting_standard": [],
+    "thesis_summary": "",
+    "stated_criteria": [],
+    "hard_blockers": [],
+    "regulatory_expectation": "none",
+    "revenue_required": false,
+    "revenue_floor_usd": null,
+    "application_mode": "open_application",
+    "application_url": null,
+    "page_supports_extraction": false,
+    "funder_id": "setpoint",
+    "name": "Setpoint",
+    "source_pages": [
+      "https://setpoint.io",
+      "https://setpoint.io/company/about",
+      "https://setpoint.io/platform"
+    ],
+    "last_verified": "2026-10-24",
+    "dropped_unsupported": [],
+    "decision_timeline_weeks": null,
+    "reporting_hours_per_quarter": null,
+    "ops_support": null,
+    "ops_support_detail": null,
+    "actively_deploying": null,
+    "founder_notes": null,
+    "confidence": "unknown"
+  },
+  {
+    "category": "debt",
+    "instruments": [
+      "venture_debt"
+    ],
+    "stages": [
+      "pre_seed",
+      "seed",
+      "series_a",
+      "series_b_plus"
+    ],
+    "check_size_min_usd": null,
+    "check_size_max_usd": null,
+    "check_size_quote": null,
+    "geographies": [],
+    "fintech_verticals": [
+      "not_fintech_specific"
+    ],
+    "impact_mandate": "none",
+    "impact_reporting_standard": [],
+    "thesis_summary": "Provides banking solutions and financial products for innovation companies at multiple growth stages, including pre-seed through Series A and Series B and later.",
+    "stated_criteria": [
+      {
+        "value": "Offers digital financial tools and banking solutions for companies from pre-seed to Series A.",
+        "source_quote": "Build a strong foundation with digital financial tools and banking solutions, plus sector expertise - all designed for your journey from pre-seed to Series A."
+      },
+      {
+        "value": "Offers tailored financial products and services to businesses advancing to and through Series A.",
+        "source_quote": "Advance your business to and through Series A with tailored financial products and services and personalized, expert guidance at every step."
+      },
+      {
+        "value": "Provides specialized products and services for businesses at Series B and later.",
+        "source_quote": "Manage rapid growth and complexity with specialized products and services, dedicated service and expert guidance."
+      }
+    ],
+    "hard_blockers": [],
+    "regulatory_expectation": "none",
+    "revenue_required": false,
+    "revenue_floor_usd": null,
+    "application_mode": "open_application",
+    "application_url": null,
+    "page_supports_extraction": true,
+    "funder_id": "svb",
+    "name": "SVB (First Citizens)",
+    "source_pages": [
+      "https://innovation.firstcitizens.com",
+      "https://innovation.firstcitizens.com/about",
+      "https://innovation.firstcitizens.com/about/client-faqs"
+    ],
+    "last_verified": "2026-10-24",
+    "dropped_unsupported": [],
+    "decision_timeline_weeks": null,
+    "reporting_hours_per_quarter": null,
+    "ops_support": null,
+    "ops_support_detail": null,
+    "actively_deploying": null,
+    "founder_notes": null,
+    "confidence": "unknown"
+  },
+  {
+    "category": "accelerator",
+    "instruments": [],
+    "stages": [],
+    "check_size_min_usd": 500000,
+    "check_size_max_usd": 500000,
+    "check_size_quote": "In 2005, Y Combinator developed a new model of startup funding. Four times a year we invest $500k in a select group of startups.",
+    "geographies": [],
+    "fintech_verticals": [
+      "not_fintech_specific"
+    ],
+    "impact_mandate": "none",
+    "impact_reporting_standard": [],
+    "thesis_summary": "Y Combinator invests in a select group of startups and runs a three-month program to help them grow. It says companies can apply even if they have no revenue, product, or fully developed idea.",
+    "stated_criteria": [
+      {
+        "value": "YC accepts companies at different stages, including companies that have not started working yet and companies launched for a year or more.",
+        "source_quote": "They arrive at YC at all different stages. Some haven't even started working yet, and others have been launched for a year or more."
+      },
+      {
+        "value": "Companies can apply without revenue, a product, or a fully baked idea.",
+        "source_quote": "We fund companies with no revenue, product, or fully baked idea."
+      }
+    ],
+    "hard_blockers": [],
+    "regulatory_expectation": "none",
+    "revenue_required": false,
+    "revenue_floor_usd": null,
+    "application_mode": "deadline_based",
+    "application_url": "https://www.ycombinator.com/apply",
+    "page_supports_extraction": true,
+    "funder_id": "yc",
+    "name": "Y Combinator",
+    "source_pages": [
+      "https://www.ycombinator.com",
+      "https://www.ycombinator.com/apply",
+      "https://www.ycombinator.com/about",
+      "https://www.ycombinator.com/faq"
+    ],
+    "last_verified": "2026-10-24",
+    "dropped_unsupported": [],
+    "decision_timeline_weeks": null,
+    "reporting_hours_per_quarter": null,
+    "ops_support": null,
+    "ops_support_detail": null,
+    "actively_deploying": null,
+    "founder_notes": null,
+    "confidence": "unknown"
+  },
+  {
+    "category": "accelerator",
+    "instruments": [],
+    "stages": [
+      "pre_seed"
+    ],
+    "check_size_min_usd": 220000,
+    "check_size_max_usd": 220000,
+    "check_size_quote": "Since 2006, we've backed the world's most promising early-stage startups, and today every company gets $220K in capital, three months of relentless hands-on mentorship, and a network of investors, operators, and corporate partners that keeps opening doors for years.",
+    "geographies": [
+      "Worldwide"
+    ],
+    "fintech_verticals": [
+      "not_fintech_specific"
+    ],
+    "impact_mandate": "none",
+    "impact_reporting_standard": [],
+    "thesis_summary": "Techstars is a global early-stage accelerator and investor providing capital, mentorship, and network access to ambitious founders.",
+    "stated_criteria": [
+      {
+        "value": "Techstars backs ambitious founders and early-stage startups.",
+        "source_quote": "We find and fund the world's most ambitious founders."
+      },
+      {
+        "value": "Accelerator programs are for startups ready to grow fast.",
+        "source_quote": "Our accelerator programs are the foundation of Techstars, offering mentorship-driven investment to startups that are ready to grow fast."
+      }
+    ],
+    "hard_blockers": [],
+    "regulatory_expectation": "none",
+    "revenue_required": false,
+    "revenue_floor_usd": null,
+    "application_mode": "open_application",
+    "application_url": null,
+    "page_supports_extraction": true,
+    "funder_id": "techstars",
+    "name": "Techstars",
+    "source_pages": [
+      "https://www.techstars.com",
+      "https://www.techstars.com/about"
+    ],
+    "last_verified": "2026-10-24",
+    "dropped_unsupported": [],
+    "decision_timeline_weeks": null,
+    "reporting_hours_per_quarter": null,
+    "ops_support": null,
+    "ops_support_detail": null,
+    "actively_deploying": null,
+    "founder_notes": null,
+    "confidence": "unknown"
+  },
+  {
+    "category": "corporate_impact",
+    "instruments": [],
+    "stages": [],
+    "check_size_min_usd": null,
+    "check_size_max_usd": null,
+    "check_size_quote": null,
+    "geographies": [],
+    "fintech_verticals": [
+      "not_fintech_specific"
+    ],
+    "impact_mandate": "none",
+    "impact_reporting_standard": [],
+    "thesis_summary": "The supplied pages describe New Majority Ventures\u2019 mission, founder education, coaching, and ecosystem partnerships, but do not state funder eligibility or investment criteria.",
+    "stated_criteria": [],
+    "hard_blockers": [],
+    "regulatory_expectation": "none",
+    "revenue_required": false,
+    "revenue_floor_usd": null,
+    "application_mode": "open_application",
+    "application_url": null,
+    "page_supports_extraction": false,
+    "funder_id": "1863",
+    "name": "1863 Ventures",
+    "source_pages": [
+      "https://www.newmajorityventures.net/",
+      "https://www.newmajorityventures.net/about-us"
+    ],
+    "last_verified": "2026-10-24",
+    "dropped_unsupported": [],
+    "decision_timeline_weeks": null,
+    "reporting_hours_per_quarter": null,
+    "ops_support": null,
+    "ops_support_detail": null,
+    "actively_deploying": null,
+    "founder_notes": null,
+    "confidence": "unknown"
+  },
+  {
+    "category": "accelerator",
+    "instruments": [
+      "in_kind",
+      "grant"
+    ],
+    "stages": [],
+    "check_size_min_usd": null,
+    "check_size_max_usd": null,
+    "check_size_quote": null,
+    "geographies": [
+      "United States"
+    ],
+    "fintech_verticals": [
+      "not_fintech_specific"
+    ],
+    "impact_mandate": "preferred",
+    "impact_reporting_standard": [],
+    "thesis_summary": "DivInc runs an accelerator for U.S.-based, for-profit tech companies with a scalable solution already built and ready for growth or an MVP ready for immediate use. Participating founders receive workshops, coaching, introductions, and other program benefits; eligible founders must be people of color",
+    "stated_criteria": [
+      {
+        "value": "The company must have a scalable, tech solution that is already built and ready for growth, or a minimum viable product (MVP) ready for immediate use.",
+        "source_quote": "The company must have a\nscalable, tech solution that is already built\nand ready for growth, or a minimum viable product (MVP) ready for immediate use"
+      },
+      {
+        "value": "Participants must commit to 25\u201330 hours per week of focused work on their company or solution.",
+        "source_quote": "Participants must commit to\n25 - 30 hrs per week\nof focused work on their company or solution"
+      },
+      {
+        "value": "The CEO must participate in the program.",
+        "source_quote": "The\nCEO must participate\nin the program"
+      },
+      {
+        "value": "The participating founder must be a person of color or a woman entrepreneur.",
+        "source_quote": "The participating founder must be a\nperson of color or a woman entrepreneur"
+      },
+      {
+        "value": "Founders are expected to have a growth mindset, be coachable, have a big vision, and want to collaborate.",
+        "source_quote": "We look for founders who have a growth mindset, are coachable, have a big vision, and want to collaborate with others."
+      },
+      {
+        "value": "The accelerator provides program benefits including workshops, coaching, introductions, and support for 18 months after the program.",
+        "source_quote": "Focused Founder support for 18 months after the Accelerator program, as part of our DivInc Alumni program."
+      }
+    ],
+    "hard_blockers": [
+      {
+        "code": "geo_restricted",
+        "description": "The company must be based in the United States.",
+        "source_quote": "Must be a\nU.S. based\ncompany"
+      },
+      {
+        "code": "for_profit_only",
+        "description": "The company must be a for-profit enterprise.",
+        "source_quote": "The company must be a\nfor-profit\nenterprise"
+      },
+      {
+        "code": "nonprofit_only",
+        "description": "Nonprofit organizations, agencies, and consultants are not accepted.",
+        "source_quote": "It's important to note that our program's funding sources are focused on for-profit, tech startups. Therefore, we are unable to accept non-profit organizations, agencies, or consultants."
+      }
+    ],
+    "regulatory_expectation": "none",
+    "revenue_required": false,
+    "revenue_floor_usd": null,
+    "application_mode": "open_application",
+    "application_url": null,
+    "page_supports_extraction": true,
+    "funder_id": "divinc",
+    "name": "DivInc",
+    "source_pages": [
+      "https://divinc.org",
+      "https://divinc.org/about",
+      "https://divinc.org/faq",
+      "https://divinc.org/internships"
+    ],
+    "last_verified": "2026-10-24",
+    "dropped_unsupported": [],
+    "decision_timeline_weeks": null,
+    "reporting_hours_per_quarter": null,
+    "ops_support": null,
+    "ops_support_detail": null,
+    "actively_deploying": null,
+    "founder_notes": null,
+    "confidence": "unknown"
+  },
+  {
+    "category": "equity_vc",
+    "instruments": [
+      "equity"
+    ],
+    "stages": [],
+    "check_size_min_usd": null,
+    "check_size_max_usd": null,
+    "check_size_quote": null,
+    "geographies": [],
+    "fintech_verticals": [
+      "not_fintech_specific"
+    ],
+    "impact_mandate": "required",
+    "impact_reporting_standard": [],
+    "thesis_summary": "The Meng Impact Investment Fund invests in early-stage, for-profit ventures working toward a more sustainable and equitable world. Its sectors are determined annually based on student interest.",
+    "stated_criteria": [
+      {
+        "value": "The fund invests in early-stage, for-profit ventures.",
+        "source_quote": "Created with support from Leon Meng '97, the fund invests in innovative, early-stage for-profit ventures that are working to create a more sustainable and equitable world."
+      },
+      {
+        "value": "Sectors are determined annually based on student interest; this year they include climate, education and workforce development, financial inclusion, and healthcare.",
+        "source_quote": "Sectors are determined annually based on student interest, and this year include: climate, education & workforce development, financial inclusion, and healthcare."
+      },
+      {
+        "value": "The fund's mission includes delivering competitive financial returns, achieving measurable positive impact, and building an enduring community of impact-oriented leaders.",
+        "source_quote": "Our mission is threefold: deliver competitive financial returns, achieve measurable positive impact, and create an enduring community of impact-oriented leaders"
+      }
+    ],
+    "hard_blockers": [],
+    "regulatory_expectation": "none",
+    "revenue_required": false,
+    "revenue_floor_usd": null,
+    "application_mode": "warm_intro_only",
+    "application_url": null,
+    "page_supports_extraction": true,
+    "funder_id": "meng",
+    "name": "Meng Impact Investment Fund at Yale SOM",
+    "source_pages": [
+      "https://som.yale.edu/centers/meng-impact-investment-fund",
+      "https://som.yale.edu/apply",
+      "https://som.yale.edu/centers/meng-impact-investment-fund/about-meng-impact-investment-fund",
+      "https://som.yale.edu/centers/meng-impact-investment-fund"
+    ],
+    "last_verified": "2026-10-24",
+    "dropped_unsupported": [],
+    "decision_timeline_weeks": null,
+    "reporting_hours_per_quarter": null,
+    "ops_support": null,
+    "ops_support_detail": null,
+    "actively_deploying": null,
+    "founder_notes": null,
+    "confidence": "unknown"
+  },
+  {
+    "category": "equity_vc",
+    "instruments": [],
+    "stages": [],
+    "check_size_min_usd": null,
+    "check_size_max_usd": null,
+    "check_size_quote": null,
+    "geographies": [],
+    "fintech_verticals": [
+      "not_fintech_specific"
+    ],
+    "impact_mandate": "none",
+    "impact_reporting_standard": [],
+    "thesis_summary": "Dorm Room Fund says it writes the first check for founders who are still in school or just out, and describes backing student founders.",
+    "stated_criteria": [
+      {
+        "value": "The fund writes its first check for founders still in school or just out.",
+        "source_quote": "We write the first check for founders still in school or just out."
+      },
+      {
+        "value": "The fund backs student founders.",
+        "source_quote": "12\n+\nyears backing student founders"
+      }
+    ],
+    "hard_blockers": [],
+    "regulatory_expectation": "none",
+    "revenue_required": false,
+    "revenue_floor_usd": null,
+    "application_mode": "open_application",
+    "application_url": null,
+    "page_supports_extraction": true,
+    "funder_id": "dormroom",
+    "name": "Dorm Room Fund",
+    "source_pages": [
+      "https://www.dormroomfund.com"
+    ],
+    "last_verified": "2026-10-24",
+    "dropped_unsupported": [],
+    "decision_timeline_weeks": null,
+    "reporting_hours_per_quarter": null,
+    "ops_support": null,
+    "ops_support_detail": null,
+    "actively_deploying": null,
+    "founder_notes": null,
+    "confidence": "unknown"
+  },
+  {
+    "category": "grant",
+    "instruments": [
+      "grant",
+      "in_kind"
+    ],
+    "stages": [],
+    "check_size_min_usd": null,
+    "check_size_max_usd": 300000,
+    "check_size_quote": "DRK provides up to $300,000 USD in either unrestricted grant funding or investment capital over a three-year period, usually in multiple tranches.",
+    "geographies": [
+      "Global"
+    ],
+    "fintech_verticals": [
+      "not_fintech_specific"
+    ],
+    "impact_mandate": "required",
+    "impact_reporting_standard": [],
+    "thesis_summary": "Supports scalable, innovative, impact-first social enterprises led by exceptional entrepreneurs, with a focus on improving the lives of underserved communities through solutions that have demonstrated positive impact. Provides capital and operational support.",
+    "stated_criteria": [
+      {
+        "value": "Solutions should be scalable, innovative, and impact-first, leverage existing systems and stakeholders, and improve the lives of underserved communities across the globe.",
+        "source_quote": "Draper Richards Kaplan Foundation seeks to dramatically improve the lives of underserved communities across the globe by supporting scalable, innovative, and impact-first solutions that leverage existing systems and stakeholders."
+      },
+      {
+        "value": "The foundation seeks social entrepreneurs with dynamic products or services that have a proven ability to positively impact underserved people.",
+        "source_quote": "Our goal is to find social entrepreneurs with dynamic products or services that have a proven ability to positively impact the lives of underserved people, and nurture those organizations at the early stages by providing capacity, capital, and community."
+      },
+      {
+        "value": "Applicants are invited from priority geographies and sectors.",
+        "source_quote": "Our application process is designed to be open and accessible, and we accept applications year round from across our priority geographies and sectors."
+      },
+      {
+        "value": "Applicants should explain the main sources of earned income they will use to sustain their work over time.",
+        "source_quote": "Please explain the main sources of earned income that your organization will use to sustain your work over time."
+      }
+    ],
+    "hard_blockers": [],
+    "regulatory_expectation": "none",
+    "revenue_required": false,
+    "revenue_floor_usd": null,
+    "application_mode": "rolling",
+    "application_url": "https://www.drkfoundation.org/apply/",
+    "page_supports_extraction": true,
+    "funder_id": "drk",
+    "name": "Draper Richards Kaplan Foundation",
+    "source_pages": [
+      "https://www.drkfoundation.org",
+      "https://www.drkfoundation.org/apply/",
+      "https://www.drkfoundation.org/awards-and-recognition/",
+      "https://www.drkfoundation.org/apply/overview/"
+    ],
+    "last_verified": "2026-10-24",
+    "dropped_unsupported": [],
+    "decision_timeline_weeks": null,
+    "reporting_hours_per_quarter": null,
+    "ops_support": null,
+    "ops_support_detail": null,
+    "actively_deploying": null,
+    "founder_notes": null,
+    "confidence": "unknown"
+  },
+  {
+    "category": "equity_vc",
+    "instruments": [],
+    "stages": [],
+    "check_size_min_usd": null,
+    "check_size_max_usd": null,
+    "check_size_quote": null,
+    "geographies": [],
+    "fintech_verticals": [
+      "not_fintech_specific"
+    ],
+    "impact_mandate": "none",
+    "impact_reporting_standard": [],
+    "thesis_summary": "UVF is a student-run fund and is fully deployed; it is not currently seeking investment opportunities.",
+    "stated_criteria": [],
+    "hard_blockers": [
+      {
+        "code": "closed_program",
+        "description": "The fund is not currently seeking investment opportunities.",
+        "source_quote": "UVF is fully deployed and is not currently seeking investment opportunities."
+      }
+    ],
+    "regulatory_expectation": "none",
+    "revenue_required": false,
+    "revenue_floor_usd": null,
+    "application_mode": "warm_intro_only",
+    "application_url": null,
+    "page_supports_extraction": true,
+    "funder_id": "uvfund",
+    "name": "University Venture Fund",
+    "source_pages": [
+      "https://www.uventurefund.com",
+      "https://www.uventurefund.com"
+    ],
+    "last_verified": "2026-10-24",
+    "dropped_unsupported": [],
+    "decision_timeline_weeks": null,
+    "reporting_hours_per_quarter": null,
+    "ops_support": null,
+    "ops_support_detail": null,
+    "actively_deploying": null,
+    "founder_notes": null,
+    "confidence": "unknown"
+  },
+  {
+    "category": "equity_vc",
+    "instruments": [],
+    "stages": [
+      "seed"
+    ],
+    "check_size_min_usd": null,
+    "check_size_max_usd": null,
+    "check_size_quote": null,
+    "geographies": [],
+    "fintech_verticals": [
+      "not_fintech_specific"
+    ],
+    "impact_mandate": "none",
+    "impact_reporting_standard": [],
+    "thesis_summary": "A talent and research-driven investment firm that identifies and invests in a small number of entrepreneurs and the companies they build, from seed to scale.",
+    "stated_criteria": [
+      {
+        "value": "Invests in a small number of entrepreneurs and the companies they build, from seed to scale.",
+        "source_quote": "We identify and invest in a small number of entrepreneurs and the companies they build, from seed to scale."
+      }
+    ],
+    "hard_blockers": [],
+    "regulatory_expectation": "none",
+    "revenue_required": false,
+    "revenue_floor_usd": null,
+    "application_mode": "open_application",
+    "application_url": null,
+    "page_supports_extraction": true,
+    "funder_id": "contrary",
+    "name": "Contrary",
+    "source_pages": [
+      "https://contrary.com"
+    ],
+    "last_verified": "2026-10-24",
+    "dropped_unsupported": [],
+    "decision_timeline_weeks": null,
+    "reporting_hours_per_quarter": null,
+    "ops_support": null,
+    "ops_support_detail": null,
+    "actively_deploying": null,
+    "founder_notes": null,
+    "confidence": "unknown"
+  }
+]

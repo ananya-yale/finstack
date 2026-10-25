@@ -1,0 +1,290 @@
+{% extends "base.html" %}
+{% block hero %}
+<div class="hero">
+  <div class="hero-img">
+    <img src="/static/hero.jpg" alt="Founders meeting with investors around a conference table">
+    <div class="hero-overlay">
+      <div class="hero-inner">
+        <div class="kicker">For US fintech founders</div>
+        <h1>What capital <span class="accent">actually fits</span> you?</h1>
+      </div>
+    </div>
+  </div>
+  <div class="hero-card-wrap">
+    <div class="hero-card">
+      <p>Most founders get a list of investors. You get an ordered plan &mdash; which money
+      to raise first, what kind it should be, and the honest reasons each funder is
+      likely to say no.</p>
+    </div>
+  </div>
+</div>
+{% endblock %}
+
+{% block body %}
+
+<div class="examples">
+  <span class="examples-label">New here? Load an example:</span>
+  <button type="button" class="ex" data-ex="lender">Balance-sheet lender</button>
+  <button type="button" class="ex" data-ex="inclusion">Inclusion pre-seed</button>
+  <button type="button" class="ex" data-ex="payments">Payments, Series A</button>
+</div>
+
+<form method="post" action="/match">
+
+<div class="card">
+  <p class="card-head">The company <em>what you do and how far along</em></p>
+  <div class="grid">
+    <div class="field">
+      <label for="stage">Stage</label>
+      <select name="stage" id="stage" required>
+        <option value="idea">Idea / pre-product</option>
+        <option value="pre_seed" selected>Pre-seed</option>
+        <option value="seed">Seed</option>
+        <option value="series_a">Series A</option>
+        <option value="series_b_plus">Series B or later</option>
+      </select>
+    </div>
+    <div class="field">
+      <label for="vertical">What kind of fintech?</label>
+      <select name="vertical" id="vertical" required>
+        <option value="lending">Lending / credit</option>
+        <option value="payments">Payments</option>
+        <option value="banking_infra">Banking infrastructure</option>
+        <option value="embedded_finance">Embedded finance</option>
+        <option value="insurtech">Insurtech</option>
+        <option value="wealth">Wealth / investing</option>
+        <option value="regtech">Regtech / compliance</option>
+        <option value="financial_inclusion">Financial inclusion / underserved</option>
+        <option value="financial_health">Financial health / wellbeing</option>
+        <option value="remittances">Remittances</option>
+        <option value="sme_finance">SME finance</option>
+        <option value="crypto">Crypto / digital assets</option>
+      </select>
+    </div>
+  </div>
+
+  <div class="field">
+    <label for="description">What does your company do?
+      <span class="hint">Two or three sentences.</span></label>
+    <textarea name="description" id="description" required
+      placeholder="We provide ..."></textarea>
+  </div>
+</div>
+
+<div class="card">
+  <p class="card-head">Where you stand <em>the facts that decide eligibility</em></p>
+  <div class="grid">
+    <div class="field">
+      <label for="entity_type">Entity type</label>
+      <select name="entity_type" id="entity_type">
+        <option value="unknown">I don't know</option>
+        <option value="delaware_c_corp">Delaware C-corp</option>
+        <option value="other_c_corp">C-corp, another state</option>
+        <option value="llc">LLC</option>
+        <option value="pbc">Public benefit corp</option>
+        <option value="nonprofit">Nonprofit</option>
+        <option value="not_incorporated">Not incorporated yet</option>
+      </select>
+    </div>
+    <div class="field">
+      <label for="incorporation_state">Where are you based?
+        <span class="hint">State</span></label>
+      <input type="text" name="incorporation_state" id="incorporation_state" placeholder="e.g. NY">
+    </div>
+    <div class="field">
+      <label for="revenue">Revenue</label>
+      <select name="revenue" id="revenue">
+        <option value="unknown">I don't know</option>
+        <option value="pre_revenue">Pre-revenue</option>
+        <option value="under_100k">Under $100k</option>
+        <option value="100k_500k">$100k - $500k</option>
+        <option value="500k_2m">$500k - $2M</option>
+        <option value="over_2m">Over $2M</option>
+      </select>
+    </div>
+    <div class="field">
+      <label for="regulatory_status">Licensing and banking</label>
+      <select name="regulatory_status" id="regulatory_status">
+        <option value="unknown">I don't know</option>
+        <option value="none_needed">No license needed</option>
+        <option value="none_yet">Needed, none yet</option>
+        <option value="in_progress">Applications in progress</option>
+        <option value="licensed">Licensed</option>
+        <option value="sponsor_bank">Sponsor bank secured</option>
+        <option value="chartered">Chartered</option>
+      </select>
+    </div>
+  </div>
+
+  <div class="field">
+    <label for="lends_own_balance_sheet">Do you lend money off your own balance sheet?
+      <span class="hint">This changes the answer more than any other question.</span></label>
+    <select name="lends_own_balance_sheet" id="lends_own_balance_sheet">
+      <option value="no">No</option>
+      <option value="yes">Yes</option>
+      <option value="planning">Planning to</option>
+      <option value="unknown">I don't know</option>
+    </select>
+  </div>
+</div>
+
+<div class="card">
+  <p class="card-head">The raise <em>how much, when, and what kind</em></p>
+  <div class="grid">
+    <div class="field">
+      <label for="capital_sought_usd">How much are you raising? <span class="hint">USD</span></label>
+      <input type="number" name="capital_sought_usd" id="capital_sought_usd" placeholder="500000">
+    </div>
+    <div class="field">
+      <label for="timeline">When do you need it?</label>
+      <select name="timeline" id="timeline">
+        <option value="unknown">Not sure</option>
+        <option value="under_1_month">Under a month</option>
+        <option value="1_3_months">1 - 3 months</option>
+        <option value="3_6_months">3 - 6 months</option>
+        <option value="6_plus_months">6+ months</option>
+      </select>
+    </div>
+  </div>
+
+  <div class="field">
+    <label>What are you open to?</label>
+    <div class="checks">
+      {% for value, text in [("equity","Equity"),("safe","SAFE"),("grant","Grants"),
+         ("revenue_share","Revenue-based"),("venture_debt","Venture debt"),
+         ("warehouse_facility","Warehouse facility"),("in_kind","In-kind support")] %}
+      <label><input type="checkbox" name="open_to_instruments" value="{{ value }}"
+        {% if value in ("equity","grant") %}checked{% endif %}> {{ text }}</label>
+      {% endfor %}
+    </div>
+  </div>
+
+  <div class="field">
+    <label>Besides money, what do you need most?</label>
+    <div class="checks">
+      {% for value, text in [("bank_intros","Bank introductions"),
+         ("regulatory_help","Regulatory help"),("hiring","Hiring"),
+         ("distribution","Distribution"),("none","Nothing in particular")] %}
+      <label><input type="checkbox" name="support_needed" value="{{ value }}"> {{ text }}</label>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+<div class="card">
+  <p class="card-head">Mission and team <em>optional &mdash; only ever adds funders</em></p>
+  <div class="field">
+    <label>Who does your product serve?
+      <span class="hint">Only ever adds funders you are eligible for.</span></label>
+    <div class="checks">
+      {% for value, text in [("lmi_households","Low/moderate income households"),
+         ("thin_file","Thin-file or no credit"),("immigrants","Immigrants"),
+         ("small_businesses","Small businesses"),("rural","Rural communities"),
+         ("none_specifically","None specifically")] %}
+      <label><input type="checkbox" name="populations_served" value="{{ value }}"> {{ text }}</label>
+      {% endfor %}
+    </div>
+  </div>
+
+  <div class="field">
+    <label>Does any of this apply to the founding team?
+      <span class="hint">Optional. Used only to unlock funders with eligibility rules,
+      never to score you.</span></label>
+    <div class="checks">
+      {% for value, text in [("current_student","Currently a student"),
+         ("underrepresented_founder","Underrepresented founder"),
+         ("university_affiliation","University affiliation"),
+         ("none_or_private","None / prefer not to say")] %}
+      <label><input type="checkbox" name="founder_attributes" value="{{ value }}"> {{ text }}</label>
+      {% endfor %}
+    </div>
+  </div>
+
+  <div class="field">
+    <label for="free_text">Anything else?
+      <span class="hint">Paste a blurb or deck text if you have one. Optional.</span></label>
+    <textarea name="free_text" id="free_text"></textarea>
+  </div>
+</div>
+
+<button type="submit">Find my capital stack</button>
+<p class="small muted" style="margin-top:12px">
+  Four model calls per run. Token use is shown with your results.</p>
+</form>
+
+<footer class="meta">
+  {{ coverage.total }} funders in the dataset &middot;
+  {{ coverage.with_stages }} with stage data from their own pages &middot;
+  {{ coverage.assessed }} with practitioner assessments.
+  Every claim links to the funder's own words.
+</footer>
+
+<script>
+// Three realistic profiles, so anyone can run a real query without inventing a startup.
+const EXAMPLES = {
+  lender: {
+    stage:"seed", vertical:"lending",
+    description:"We make small-dollar installment loans to thin-file borrowers who are shut out of mainstream credit, underwriting on cash-flow data rather than FICO. We lend off our own balance sheet.",
+    entity_type:"delaware_c_corp", incorporation_state:"NY", revenue:"100k_500k",
+    regulatory_status:"in_progress", lends_own_balance_sheet:"yes",
+    capital_sought_usd:"2000000", timeline:"3_6_months",
+    open_to_instruments:["equity","warehouse_facility","venture_debt"],
+    populations_served:["thin_file","lmi_households"],
+    support_needed:["bank_intros","regulatory_help"], founder_attributes:[]
+  },
+  inclusion: {
+    stage:"pre_seed", vertical:"financial_inclusion",
+    description:"We help immigrant and thin-file households build credit history from rent and utility payments, then connect them to affordable credit products.",
+    entity_type:"delaware_c_corp", incorporation_state:"CA", revenue:"under_100k",
+    regulatory_status:"none_yet", lends_own_balance_sheet:"no",
+    capital_sought_usd:"750000", timeline:"3_6_months",
+    open_to_instruments:["equity","safe","grant"],
+    populations_served:["thin_file","immigrants","lmi_households"],
+    support_needed:["regulatory_help"], founder_attributes:["underrepresented_founder"]
+  },
+  payments: {
+    stage:"series_a", vertical:"payments",
+    description:"We run embedded payouts for marketplaces, handling compliance and money movement through a sponsor bank so platforms can pay their sellers same-day.",
+    entity_type:"delaware_c_corp", incorporation_state:"NY", revenue:"over_2m",
+    regulatory_status:"sponsor_bank", lends_own_balance_sheet:"no",
+    capital_sought_usd:"12000000", timeline:"6_plus_months",
+    open_to_instruments:["equity"], populations_served:["small_businesses"],
+    support_needed:["distribution","hiring"], founder_attributes:[]
+  }
+};
+
+document.querySelectorAll("button.ex").forEach(function (btn) {
+  btn.addEventListener("click", function () {
+    const ex = EXAMPLES[btn.dataset.ex];
+    document.querySelectorAll('input[type=checkbox]').forEach(function (b) { b.checked = false; });
+    Object.entries(ex).forEach(function (entry) {
+      const [name, value] = entry;
+      if (Array.isArray(value)) {
+        value.forEach(function (v) {
+          const box = document.querySelector('input[name="' + name + '"][value="' + v + '"]');
+          if (box) box.checked = true;
+        });
+      } else {
+        const el = document.querySelector('[name="' + name + '"]');
+        if (el) el.value = value;
+      }
+    });
+    document.querySelector('#description').scrollIntoView({behavior:"smooth", block:"center"});
+  });
+});
+
+// Checkbox groups post as one comma-joined value so the server reads a simple string.
+document.querySelector('form').addEventListener('submit', function (event) {
+  ['open_to_instruments','support_needed','populations_served','founder_attributes']
+    .forEach(function (name) {
+      var boxes = [...document.querySelectorAll('input[name="' + name + '"]:checked')];
+      boxes.forEach(function (b) { b.disabled = true; });
+      var hidden = document.createElement('input');
+      hidden.type = 'hidden';
+      hidden.name = name;
+      hidden.value = boxes.map(function (b) { return b.value; }).join(',');
+      event.target.appendChild(hidden);
+    });
+});
+</script>
+{% endblock %}
